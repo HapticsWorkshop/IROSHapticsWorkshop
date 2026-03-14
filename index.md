@@ -11,6 +11,13 @@ Welcome to the workshop website.
 ## Overview
 This workshop will bring together researchers from haptics, tactile sensing, dexterous manipulation, teleoperation, and human-robot interaction.
 
+## Important information
+- Date: TBD
+- Location: IROS 2026
+- Call for Posters: coming soon
+
 ## Important Links
-- [Call for Posters PDF](/assets/files/call_for_posters.pdf)
-- [Organizers](/about/)
+- [Organizers](/organizers/)
+- [Speakers](/speakers/)
+- [Schedule](/schedule/)
+- [Call for Posters](/call-for-posters/)
