@@ -1,5 +1,11 @@
 main:
   - title: "Home"
     url: /
-  - title: "About"
-    url: /about/
+  - title: "Speakers"
+    url: /speakers/
+  - title: "Schedule"
+    url: /schedule/
+  - title: "Call for Posters"
+    url: /call-for-posters/
+  - title: "Organizers"
+    url: /organizers/
