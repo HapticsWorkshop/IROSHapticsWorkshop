@@ -87,7 +87,7 @@ permalink: /speakers/
 
   <div class="speaker-card">
     <a class="speaker-image-link" href="https://charm.stanford.edu/Main/AllisonOkamura" target="_blank" rel="noopener noreferrer">
-      <img src="/IROSHapticsWorkshop/assets/images/speakers/speaker1.jpg" alt="Allison Okamura">
+      <img src="/IROSHapticsWorkshop/assets/images/speakers/okamura.jpg" alt="Allison Okamura">
     </a>
 
     <div>
@@ -102,10 +102,60 @@ permalink: /speakers/
   </div>
 
   <div class="speaker-card">
+    <a class="speaker-image-link" href="https://www.bristol.ac.uk/people/person/Nathan-Lepora-83045353-295f-488f-8720-e19648954fba/" target="_blank" rel="noopener noreferrer">
+      <img src="/IROSHapticsWorkshop/assets/images/speakers/nathan.jpg" alt="Nathan Lepora">
+    </a>
+
+    <div>
+      <div class="speaker-name">Nathan Lepora</div>
+      <div class="speaker-position">Professor of Robotics & AI</div>
+      <div class="speaker-institution">University of Bristol</div>
+      <div class="speaker-title">Bio-inspired tactile sensing and robotic manipulation</div>
+      <div class="speaker-abstract">
+        Short abstract goes here. You can duplicate this block for each invited speaker and just
+        replace the image, webpage, title, and abstract.
+      </div>
+    </div>
+  </div>
+
+  <div class="speaker-card">
+    <a class="speaker-image-link" href="https://www.linkedin.com/in/jmullenbach/" target="_blank" rel="noopener noreferrer">
+      <img src="/IROSHapticsWorkshop/assets/images/speakers/joe.jpg" alt="Joe Mullenbach">
+    </a>
+
+    <div>
+      <div class="speaker-name">Joe Mullenbach</div>
+      <div class="speaker-position">Co-founder</div>
+      <div class="speaker-institution">Fluid Reality</div>
+      <div class="speaker-title">High Resolution Haptics for Teleoperation</div>
+      <div class="speaker-abstract">
+        Short abstract goes here. You can duplicate this block for each invited speaker and just
+        replace the image, webpage, title, and abstract.
+      </div>
+    </div>
+  </div>
+
+  <div class="speaker-card">
+    <a class="speaker-image-link" href="https://engineering.tamu.edu/mechanical/profiles/friesen-rebecca.html" target="_blank" rel="noopener noreferrer">
+      <img src="/IROSHapticsWorkshop/assets/images/speakers/Rebecca.jpg" alt="Rebecca Friesen">
+    </a>
+
+    <div>
+      <div class="speaker-name">Rebecca Friesen</div>
+      <div class="speaker-position">Assistant Professor</div>
+      <div class="speaker-institution">Texas A&M University</div>
+      <div class="speaker-title">Tactile feedback and haptic interaction</div>
+      <div class="speaker-abstract">
+        Short abstract goes here. You can duplicate this block for each invited speaker and just
+        replace the image, webpage, title, and abstract.
+      </div>
+    </div>
+  </div>
+
+  <div class="speaker-card">
     <a class="speaker-image-link" href="https://www.cmu.edu/dietrich/psychology/directory/core-training-faculty/klatzky-roberta.html" target="_blank" rel="noopener noreferrer">
       <img src="/IROSHapticsWorkshop/assets/images/organizers/Bobby.jpg" alt="Roberta Klatzky">
     </a>
-
     <div>
       <div class="speaker-name">Roberta Klatzky</div>
       <div class="speaker-position">Charles J. Queenan, Jr. University Professor of Psychology</div>
@@ -121,8 +171,5 @@ permalink: /speakers/
 </div>s
 
 ---
-Nathan Lepora, Professor of Robotics and AI, University of Bristol, UK. Proposed talk: “Bio-inspired tactile sensing and robotic manipulation”.
-Allison Okamura, Professor of Engineering, Stanford University, USA. Proposed talk: “Haptic interfaces, teleoperation, and human–robot interaction”.
 Rebecca Friesen, Assistant Professor in Mechanical Engineering, Texas A&M University, USA. Proposed talk: “Tactile feedback and haptic interaction”.
-Joe Mullenbach, Co-Founder at Fluid Reality, USA. Proposed talk: “
 ---
