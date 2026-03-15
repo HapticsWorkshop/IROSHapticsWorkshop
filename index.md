@@ -6,8 +6,6 @@ permalink: /
 
 # IROS 2026 Workshop: Enhancing Dexterous Manipulation Through Haptic Feedback
 
-Welcome to the workshop website.
-
 ## Workshop Overview
 
 Human manipulation relies fundamentally on rich tactile and kinesthetic feedback to regulate forces, adapt to contact conditions, and achieve fine motor control. In contrast, many robotic manipulation systems continue to depend predominantly on vision and open-loop strategies, limiting robustness in contact-rich and uncertain environments. While major advances have been achieved in robotic grasping, learning-based control, and actuation technologies, the systematic integration of haptic feedback as a core component of dexterous manipulation remains underdeveloped.
