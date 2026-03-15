@@ -5,216 +5,180 @@ permalink: /schedule/
 ---
 
 <style>
-.schedule-wrapper {
-  max-width: 980px;
-  margin: 2rem auto;
+.schedule-wrapper{
+  max-width:1000px;
+  margin:2rem auto;
 }
 
-.schedule-title {
-  text-align: center;
-  margin-bottom: 2rem;
+.schedule-session{
+  margin-top:2rem;
+  margin-bottom:1rem;
+  padding-bottom:.4rem;
+  border-bottom:2px solid #e6e6e6;
 }
 
-.schedule-title h2 {
-  margin-bottom: 0.4rem;
+.schedule-session h3{
+  margin-bottom:.3rem;
 }
 
-.schedule-title p {
-  margin: 0;
-  color: #555;
+.schedule{
+  display:flex;
+  flex-direction:column;
+  gap:.8rem;
 }
 
-.schedule {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+.schedule-item{
+  display:grid;
+  grid-template-columns:140px 1fr;
+  gap:1rem;
 }
 
-.schedule-item {
-  display: grid;
-  grid-template-columns: 140px 1fr;
-  gap: 1rem;
-  align-items: stretch;
+.schedule-time{
+  font-weight:700;
+  text-align:right;
+  padding-top:.7rem;
 }
 
-.schedule-time {
-  font-weight: 700;
-  font-size: 1rem;
-  color: #1f2d3d;
-  padding-top: 0.9rem;
-  text-align: right;
-  white-space: nowrap;
+.schedule-card{
+  background:#fff;
+  border-left:6px solid #2c7fb8;
+  border-radius:8px;
+  padding:.9rem 1.1rem;
+  box-shadow:0 2px 8px rgba(0,0,0,0.08);
 }
 
-.schedule-card {
-  background: #ffffff;
-  border-left: 6px solid #2c7fb8;
-  border-radius: 10px;
-  padding: 1rem 1.2rem;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+.schedule-card h4{
+  margin:0 0 .2rem 0;
 }
 
-.schedule-card h3 {
-  margin: 0 0 0.35rem 0;
-  font-size: 1.05rem;
+.schedule-card p{
+  margin:0;
 }
 
-.schedule-card p {
-  margin: 0.2rem 0 0 0;
-  line-height: 1.5;
+.keynote{border-left-color:#2c7fb8;}
+.break{border-left-color:#d95f02;background:#fff7f0;}
+.panel{border-left-color:#1b9e77;}
+.poster{border-left-color:#7b3294;}
+.opening{border-left-color:#555;background:#f6f7fa;}
+.closing{border-left-color:#555;background:#f6f7fa;}
+
+.schedule-note{
+  margin-top:1.5rem;
+  font-size:.95rem;
+  color:#555;
+  text-align:center;
+  font-style:italic;
 }
 
-.schedule-card .speaker {
-  font-weight: 600;
+@media (max-width:768px){
+.schedule-item{
+grid-template-columns:1fr;
 }
-
-.schedule-card .meta {
-  font-size: 0.95rem;
-  color: #555;
-  margin-top: 0.35rem;
+.schedule-time{
+text-align:left;
 }
-
-/* Session types */
-.schedule-card.talk {
-  border-left-color: #2c7fb8;
-}
-
-.schedule-card.poster {
-  border-left-color: #7b3294;
-}
-
-.schedule-card.break {
-  border-left-color: #d95f02;
-  background: #fff8f2;
-}
-
-.schedule-card.panel {
-  border-left-color: #1b9e77;
-}
-
-.schedule-card.opening,
-.schedule-card.closing {
-  border-left-color: #4d4d4d;
-  background: #f8f9fb;
-}
-
-.schedule-note {
-  margin-top: 1.5rem;
-  font-size: 0.95rem;
-  color: #555;
-  text-align: center;
-  font-style: italic;
-}
-
-@media (max-width: 768px) {
-  .schedule-item {
-    grid-template-columns: 1fr;
-    gap: 0.4rem;
-  }
-
-  .schedule-time {
-    text-align: left;
-    padding-top: 0;
-  }
 }
 </style>
 
 <div class="schedule-wrapper">
-  <div class="schedule-title">
-    <h2>Workshop Schedule</h2>
-    <p>Invited talks, posters, and panel discussion on haptics, tactile sensing, and dexterous manipulation.</p>
-  </div>
 
-  <div class="schedule">
+<div class="schedule">
 
-    <div class="schedule-item">
-      <div class="schedule-time">08:50 – 09:00</div>
-      <div class="schedule-card opening">
-        <h3>Opening Remarks</h3>
-        <p>Welcome, workshop goals, and overview of the day.</p>
-      </div>
-    </div>
+<div class="schedule-item">
+<div class="schedule-time">08:40 – 08:50</div>
+<div class="schedule-card opening">
+<h4>Welcome and Presentation of the Workshop Goals</h4>
+</div>
+</div>
 
-    <div class="schedule-item">
-      <div class="schedule-time">09:00 – 09:25</div>
-      <div class="schedule-card talk">
-        <h3><span class="speaker">Roberta L. Klatzky</span></h3>
-        <p>Human haptic perception and its implications for dexterous manipulation.</p>
-        <p class="meta">20 min talk + 5 min Q&amp;A</p>
-      </div>
-    </div>
+</div>
 
-    <div class="schedule-item">
-      <div class="schedule-time">09:25 – 09:50</div>
-      <div class="schedule-card talk">
-        <h3><span class="speaker">Nathan Lepora</span></h3>
-        <p>Bio-inspired tactile sensing and robotic manipulation.</p>
-        <p class="meta">20 min talk + 5 min Q&amp;A</p>
-      </div>
-    </div>
+<div class="schedule-session">
+<h3>Session 1: Crossing Paths: Haptics and Dexterous Manipulation</h3>
+</div>
 
-    <div class="schedule-item">
-      <div class="schedule-time">09:50 – 10:15</div>
-      <div class="schedule-card talk">
-        <h3><span class="speaker">Allison Okamura</span></h3>
-        <p>Haptics, teleoperation, and human–robot interaction for dexterous tasks.</p>
-        <p class="meta">20 min talk + 5 min Q&amp;A</p>
-      </div>
-    </div>
+<div class="schedule">
 
-    <div class="schedule-item">
-      <div class="schedule-time">10:15 – 10:30</div>
-      <div class="schedule-card poster">
-        <h3>Poster Spotlight Session</h3>
-        <p>Short teaser presentations from selected poster contributors.</p>
-      </div>
-    </div>
+<div class="schedule-item">
+<div class="schedule-time">08:50 – 09:10</div>
+<div class="schedule-card keynote">
+<h4>Keynote 1 — "Human Tactile Perception"</h4>
+<p><strong>Speaker:</strong> Roberta Klatzky</p>
+</div>
+</div>
 
-    <div class="schedule-item">
-      <div class="schedule-time">10:30 – 11:00</div>
-      <div class="schedule-card break">
-        <h3>Coffee Break &amp; Poster Session</h3>
-        <p>Informal discussion, networking, and poster viewing.</p>
-      </div>
-    </div>
+<div class="schedule-item">
+<div class="schedule-time">09:10 – 09:30</div>
+<div class="schedule-card keynote">
+<h4>Keynote 2 — "Tactile Robotics: Past and Future"</h4>
+<p><strong>Speaker:</strong> Nathan Lepora</p>
+</div>
+</div>
 
-    <div class="schedule-item">
-      <div class="schedule-time">11:00 – 11:25</div>
-      <div class="schedule-card talk">
-        <h3><span class="speaker">Rebecca Friesen</span></h3>
-        <p>Emerging approaches in tactile feedback and haptic interaction.</p>
-        <p class="meta">20 min talk + 5 min Q&amp;A</p>
-      </div>
-    </div>
+<div class="schedule-item">
+<div class="schedule-time">09:30 – 09:50</div>
+<div class="schedule-card keynote">
+<h4>Keynote 3 — "Pneumatic Twin System for Haptic Teleoperation"</h4>
+<p><strong>Speaker:</strong> Allison Okamura</p>
+</div>
+</div>
 
-    <div class="schedule-item">
-      <div class="schedule-time">11:25 – 11:50</div>
-      <div class="schedule-card talk">
-        <h3><span class="speaker">Fluid Reality</span></h3>
-        <p>Industry perspective on next-generation haptic technologies.</p>
-        <p class="meta">20 min talk + 5 min Q&amp;A</p>
-      </div>
-    </div>
+<div class="schedule-item">
+<div class="schedule-time">09:50 – 10:10</div>
+<div class="schedule-card keynote">
+<h4>Keynote 4 — "Tactile Feedback and Haptic Interaction"</h4>
+<p><strong>Speaker:</strong> Rebecca Friesen</p>
+</div>
+</div>
 
-    <div class="schedule-item">
-      <div class="schedule-time">11:50 – 12:20</div>
-      <div class="schedule-card panel">
-        <h3>Panel Discussion</h3>
-        <p>Roundtable discussion with invited speakers and audience questions.</p>
-      </div>
-    </div>
+<div class="schedule-item">
+<div class="schedule-time">10:10 – 10:30</div>
+<div class="schedule-card keynote">
+<h4>Keynote 5 — "High Resolution Haptics for Teleoperation"</h4>
+<p><strong>Speaker:</strong> Joe Mullenbach</p>
+</div>
+</div>
 
-    <div class="schedule-item">
-      <div class="schedule-time">12:20 – 12:30</div>
-      <div class="schedule-card closing">
-        <h3>Closing Remarks</h3>
-        <p>Summary, final discussion points, and next steps for the community.</p>
-      </div>
-    </div>
+<div class="schedule-item">
+<div class="schedule-time">10:30 – 11:00</div>
+<div class="schedule-card break">
+<h4>Coffee Break</h4>
+</div>
+</div>
 
-  </div>
+</div>
 
-  <div class="schedule-note">
-    Note: The order of presentations may be adjusted to accommodate the final conference schedule.
-  </div>
+<div class="schedule-session">
+<h3>Session 2: Discussion — Can we enhance dexterous manipulation through haptics?</h3>
+</div>
+
+<div class="schedule">
+
+<div class="schedule-item">
+<div class="schedule-time">11:00 – 11:40</div>
+<div class="schedule-card panel">
+<h4>Round Table with Speakers</h4>
+</div>
+</div>
+
+<div class="schedule-item">
+<div class="schedule-time">11:40 – 12:15</div>
+<div class="schedule-card poster">
+<h4>Poster Session and Networking</h4>
+</div>
+</div>
+
+<div class="schedule-item">
+<div class="schedule-time">12:15 – 12:30</div>
+<div class="schedule-card closing">
+<h4>Closing Remarks</h4>
+</div>
+</div>
+
+</div>
+
+<div class="schedule-note">
+Note: The order of presentations may be adjusted to accommodate the final conference schedule.
+</div>
+
 </div>
