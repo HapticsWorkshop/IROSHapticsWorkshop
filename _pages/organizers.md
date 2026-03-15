@@ -6,63 +6,66 @@ permalink: /organizers/
 
 <style>
 .organizers-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 260px));
-  justify-content: center;
-  gap: 2.5rem 2rem;
-  margin-top: 2rem;
-  text-align: center;
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 260px)) !important;
+  justify-content: center !important;
+  gap: 2.5rem 2rem !important;
+  margin-top: 2rem !important;
+  text-align: center !important;
 }
 
 .organizer-card {
-  width: 100%;
-  max-width: 260px;
-  margin: 0 auto;
+  width: 260px !important;
+  max-width: 260px !important;
+  margin: 0 auto !important;
 }
 
-.organizer-card a.organizer-image-link {
-  display: inline-block;
-  text-decoration: none;
+.organizer-image-link {
+  display: inline-block !important;
+  text-decoration: none !important;
   border-bottom: none !important;
 }
 
 .organizer-card img {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto 1rem auto;
+  width: 150px !important;
+  height: 150px !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  border-radius: 50% !important;
+  display: block !important;
+  margin: 0 auto 1rem auto !important;
 }
 
 .organizer-name {
-  font-size: 1.08rem;
-  font-weight: 700;
-  line-height: 1.3;
-  margin-bottom: 0.2rem;
+  font-size: 1.08rem !important;
+  font-weight: 700 !important;
+  line-height: 1.3 !important;
+  margin-bottom: 0.2rem !important;
 }
 
 .organizer-position {
-  font-size: 0.96rem;
-  line-height: 1.35;
-  margin-bottom: 0.15rem;
+  font-size: 0.96rem !important;
+  line-height: 1.35 !important;
+  margin-bottom: 0.15rem !important;
 }
 
 .organizer-affiliation {
-  font-size: 0.94rem;
-  line-height: 1.35;
-  color: #666;
+  font-size: 0.94rem !important;
+  line-height: 1.35 !important;
+  color: #666 !important;
 }
 
 @media screen and (max-width: 700px) {
   .organizers-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
+  }
+
+  .organizer-card {
+    width: 100% !important;
+    max-width: 260px !important;
   }
 }
 </style>
-
-## Organizing Committee
 
 <div class="organizers-grid">
 
