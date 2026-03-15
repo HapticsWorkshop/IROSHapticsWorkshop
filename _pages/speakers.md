@@ -110,10 +110,9 @@ permalink: /speakers/
       <div class="speaker-name">Nathan Lepora</div>
       <div class="speaker-position">Professor of Robotics & AI</div>
       <div class="speaker-institution">University of Bristol</div>
-      <div class="speaker-title">Bio-inspired tactile sensing and robotic manipulation</div>
+      <div class="speaker-title">Tactile robotics: Past and future</div>
       <div class="speaker-abstract">
-        Short abstract goes here. You can duplicate this block for each invited speaker and just
-        replace the image, webpage, title, and abstract.
+        What is the future of tactile robotics? To help define that future, this talk provides a historical perspective on tactile sensing in robotics from the wealth of knowledge and expert opinion in nearly 150 reviews over almost half a century. Recent expansion has led to diverse themes emerging of e-skins, tactile robotic hands, vision-based tactile sensing, soft/biomimetic touch, and the tactile Internet. In the next generation from 2025, tactile robotics could mature to widespread commercial use, with applications in human-like dexterity, understanding human intelligence, and telepresence impacting all robotics and AI. By linking past expert insights to present themes, this talk will highlight recurring challenges in tactile robotics, showing how the field has evolved, why progress has often stalled, and which opportunities are most likely to define its future.
       </div>
     </div>
   </div>
