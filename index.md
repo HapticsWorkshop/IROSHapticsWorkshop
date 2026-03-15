@@ -67,7 +67,7 @@ object-fit:contain;
 <div class="logo-row">
 
 <a href="https://hand-erc.org/" target="_blank">
-<img src="/IROSHapticsWorkshop/assets/images/logos/HAND.png">
+<img src="/IROSHapticsWorkshop/assets/images/logos/HAND.jpg">
 </a>
 
 </div>
