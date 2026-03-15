@@ -85,9 +85,10 @@ object-fit:contain;
 <div class="footer-title">Organizing Institutions</div>
 
 <div class="logo-row">
-
-<img class="institution-logo" src="/IROSHapticsWorkshop/assets/images/logos/cmu_logo.png">
-
+  
+<a href="https://www.ri.cmu.edu/" target="_blank">
+<img class="institution-logo" src="/IROSHapticsWorkshop/assets/images/logos/ri-cmu.png">
+</a>
 </div>
 
 </div>
