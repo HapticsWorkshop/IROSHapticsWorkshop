@@ -1,9 +1,8 @@
 ---
+titel: IROS 2026 Workshop: Enhancing Dexterous Manipulation Through Haptic Feedback
 layout: single
 permalink: /
 ---
-
-# IROS 2026 Workshop: Enhancing Dexterous Manipulation Through Haptic Feedback
 
 ## Workshop Overview
 
