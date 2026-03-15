@@ -168,8 +168,4 @@ permalink: /speakers/
     </div>
   </div>
 
-</div>s
-
----
-Rebecca Friesen, Assistant Professor in Mechanical Engineering, Texas A&M University, USA. Proposed talk: “Tactile feedback and haptic interaction”.
----
+</div>
