@@ -48,13 +48,21 @@ display:flex;
 justify-content:center;
 align-items:center;
 flex-wrap:wrap;
-gap:2rem;
+gap:2.5rem;
 margin-bottom:2rem;
 }
 
-.logo-row img{
-height:60px;
-max-width:160px;
+/* Sponsors (bigger) */
+.sponsor-logo{
+height:110px;
+max-width:260px;
+object-fit:contain;
+}
+
+/* Institutions (smaller) */
+.institution-logo{
+height:65px;
+max-width:180px;
 object-fit:contain;
 }
 
@@ -67,7 +75,7 @@ object-fit:contain;
 <div class="logo-row">
 
 <a href="https://hand-erc.org/" target="_blank">
-<img src="/IROSHapticsWorkshop/assets/images/logos/HAND.jpg">
+<img class="sponsor-logo" src="/IROSHapticsWorkshop/assets/images/logos/HAND.jpg">
 </a>
 
 </div>
@@ -76,7 +84,7 @@ object-fit:contain;
 
 <div class="logo-row">
 
-<img src="/IROSHapticsWorkshop/assets/images/logos/cmu_logo.png">
+<img class="institution-logo" src="/IROSHapticsWorkshop/assets/images/logos/cmu_logo.png">
 
 </div>
 
