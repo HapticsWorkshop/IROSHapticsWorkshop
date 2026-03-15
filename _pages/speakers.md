@@ -86,18 +86,17 @@ permalink: /speakers/
 <div class="speakers-list">
 
   <div class="speaker-card">
-    <a class="speaker-image-link" href="https://www.your-speaker-page.com" target="_blank" rel="noopener noreferrer">
-      <img src="/IROSHapticsWorkshop/assets/images/speakers/speaker1.jpg" alt="Speaker Name">
+    <a class="speaker-image-link" href="https://charm.stanford.edu/Main/AllisonOkamura" target="_blank" rel="noopener noreferrer">
+      <img src="/IROSHapticsWorkshop/assets/images/speakers/speaker1.jpg" alt="Allison Okamura">
     </a>
 
     <div>
-      <div class="speaker-name">Speaker Name</div>
-      <div class="speaker-position">Professor of Robotics</div>
-      <div class="speaker-institution">University Name</div>
-      <div class="speaker-title">Talk Title Goes Here</div>
+      <div class="speaker-name">Allison Okamura</div>
+      <div class="speaker-position">Richard W. Weiland Professor of Engineering</div>
+      <div class="speaker-institution">Stanford University</div>
+      <div class="speaker-title">Pneumatic Twin System for Haptic Teleoperation</div>
       <div class="speaker-abstract">
-        Short abstract goes here. This can be a short paragraph of around 3–6 lines describing the
-        speaker’s talk, the main theme, and why it is relevant to the workshop.
+        I will present a wearable pneumatic glove system that enables continuous, bidirectional haptic interaction through a unified pressure-based sensing and actuation modality. By grounding both force capture and feedback in the same physical substrate, the system achieves an interpretable and low-latency mapping to contact forces that vibrotactile and high-resolution tactile array approaches lack. The twin architecture supports direct force mirroring between a human and a manipulator with end-to-end latency under 86 ms, enabling closed-loop tactile communication suitable for fast physical interaction. Beyond teleoperation, where bidirectional feedback improves force regulation and task performance, the approach addresses an emerging need in robot learning: providing interpretable, real-time tactile feedback during demonstration collection for imitation and diffusion learning systems.
       </div>
     </div>
   </div>
