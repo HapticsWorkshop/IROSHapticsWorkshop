@@ -69,7 +69,6 @@ permalink: /call-for-posters/
 </style>
 
 <div class="call-section call-intro">
-  <h2 class="section-title">Call for Posters</h2>
 
   <p>
     We invite submissions of poster abstracts for the IROS 2026 Workshop on Haptics and Dexterous Manipulation.
@@ -82,10 +81,15 @@ permalink: /call-for-posters/
   <p>
     The goal of this session is to foster discussion and collaboration between researchers working on the fundamental technologies enabling human-like dexterity in robotic systems.
   </p>
+
 </div>
 
 <div class="call-section">
   <h2 class="section-title">Topics of Interest</h2>
+
+  <p>
+    Relevant topics for the poster session include, but are not limited to:
+  </p>
 
   <div class="topics-box">
     <ul>
