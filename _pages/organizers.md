@@ -7,14 +7,15 @@ permalink: /organizers/
 <style>
 .organizers-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 260px));
+  justify-content: center;
   gap: 2.5rem 2rem;
   margin-top: 2rem;
-  align-items: start;
   text-align: center;
 }
 
 .organizer-card {
+  width: 100%;
   max-width: 260px;
   margin: 0 auto;
 }
@@ -52,6 +53,12 @@ permalink: /organizers/
   font-size: 0.94rem;
   line-height: 1.35;
   color: #666;
+}
+
+@media screen and (max-width: 700px) {
+  .organizers-grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
 
