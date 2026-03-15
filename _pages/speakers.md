@@ -102,7 +102,7 @@ permalink: /speakers/
   </div>
 
   <div class="speaker-card">
-    <a class="speaker-image-link" href="https://www.bristol.ac.uk/people/person/Nathan-Lepora-83045353-295f-488f-8720-e19648954fba/" target="_blank" rel="noopener noreferrer">
+    <a class="speaker-image-link" href="https://lepora.com/" target="_blank" rel="noopener noreferrer">
       <img src="/IROSHapticsWorkshop/assets/images/speakers/nathan.jpg" alt="Nathan Lepora">
     </a>
 
