@@ -4,18 +4,82 @@ layout: single
 permalink: /call-for-posters/
 ---
 
+<style>
+
+.call-intro {
+font-size: 1.05rem;
+line-height: 1.65;
+margin-bottom: 2rem;
+}
+
+.topics-box {
+background: #f8f9fb;
+padding: 1.5rem;
+border-radius: 6px;
+margin-top: 1rem;
+margin-bottom: 2rem;
+}
+
+.deadlines-table {
+margin-top: 1rem;
+margin-bottom: 2rem;
+border-collapse: collapse;
+width: 100%;
+max-width: 500px;
+}
+
+.deadlines-table td {
+padding: 8px 12px;
+border-bottom: 1px solid #eaeaea;
+}
+
+.deadlines-table td:first-child {
+font-weight: 600;
+}
+
+.submission-box {
+background: #f8f9fb;
+padding: 1.5rem;
+border-radius: 6px;
+margin-top: 1rem;
+margin-bottom: 2rem;
+}
+
+.button-link {
+display: inline-block;
+padding: 0.6rem 1rem;
+margin-top: 0.5rem;
+margin-right: 0.5rem;
+background: #3b82f6;
+color: white !important;
+border-radius: 4px;
+text-decoration: none !important;
+font-weight: 600;
+}
+
+.button-link:hover {
+background: #2563eb;
+}
+
+</style>
+
 ## Call for Posters
 
-We invite submissions of poster abstracts for the **IROS 2026 Workshop on Enhancing Dexterous Manipulation Through Haptic Feedback**.  
-The goal of this poster session is to provide an informal forum where researchers can share ongoing work, early-stage ideas, and recent results related to the integration of **haptics, tactile sensing, and dexterous manipulation**.
+<div class="call-intro">
 
-Poster presentations will take place during the workshop poster session and networking period. The format is intended to encourage discussion and interaction between attendees, speakers, and presenters.
+We invite submissions of poster abstracts for the **IROS 2026 Workshop on Haptics and Dexterous Manipulation**.
 
-We particularly encourage submissions from **students, early-career researchers, and interdisciplinary teams** working at the intersection of robotics, haptics, perception, and human–robot interaction.
+The poster session will provide an informal forum where researchers can present ongoing work, emerging ideas, and recent results related to the integration of **haptics, tactile sensing, and dexterous robotic manipulation**.
+
+The goal of this session is to foster discussion and collaboration between researchers working on the fundamental technologies enabling human-like dexterity in robotic systems.
+
+</div>
 
 ---
 
 ## Topics of Interest
+
+<div class="topics-box">
 
 Relevant topics include, but are not limited to:
 
@@ -25,79 +89,66 @@ Relevant topics include, but are not limited to:
 - Slip detection and tactile event sensing  
 - Dexterous robotic manipulation  
 - Control strategies for dexterous manipulation  
-- Learning-based control and policy optimization for manipulation  
+- Learning-based control for manipulation  
 - Teleoperation and human-in-the-loop manipulation  
 - Human tactile perception and psychophysics  
 - Haptic interfaces and wearable haptics  
-- Tactile data processing and machine learning for touch  
-- Applications of haptics in robotics, VR/AR, and telemanipulation
-- Soft materials and structures for tactile interaction
+- Machine learning for tactile sensing  
+- Applications of haptics in robotics, VR/AR, and telemanipulation  
+
+</div>
 
 ---
 
 ## Submission Guidelines
 
-Poster submissions should consist of:
+Poster submissions should include:
 
-**1. A 1-page abstract (PDF)** describing the work to be presented.
+**1. One-page abstract (PDF)**  
 
-The abstract should include:
+The abstract should contain:
 
 - Title  
-- Author names and affiliations  
-- A short description of the research contribution  
+- Authors and affiliations  
+- Brief description of the work  
 - Optional figures illustrating the approach or results  
 
-**2. Graphical Summary (required)**
+**2. Graphical summary (required)**  
 
-Authors must also submit a **graphical summary** representing the work.  
+Authors must also submit a **graphical summary** illustrating the key idea of the work.
+
 This image will be used for:
 
 - the poster listing on the workshop website  
-- the digital poster booklet distributed to workshop attendees  
+- the digital poster booklet distributed to workshop participants  
 
-The graphical summary should:
-
-- clearly illustrate the main idea or contribution of the work  
-- be provided as a **PNG or JPG file**  
-- have sufficient resolution for web and booklet display
-
-Accepted abstracts will be presented as posters during the workshop and will be listed on the workshop website.
+The graphical summary should be provided as **PNG or JPG**.
 
 ---
 
 ## Important Dates
 
-| Event | Date |
-|------|------|
-| Poster submission deadline | TBD |
-| Notification of acceptance | TBD |
-| Workshop date | IROS 2026 |
+<table class="deadlines-table">
+<tr><td>Poster submission deadline</td><td>TBD</td></tr>
+<tr><td>Notification of acceptance</td><td>TBD</td></tr>
+<tr><td>Workshop date</td><td>IROS 2026</td></tr>
+</table>
 
 ---
 
 ## Submission
 
-Poster abstracts should be submitted through the following form:
+<div class="submission-box">
 
-**[Poster Submission Form](#)**
+Poster abstracts and graphical summaries should be submitted through the form below.
 
-A template for poster abstracts is available here:
+<a class="button-link" href="#">Poster Submission Form</a>
 
-**[Download Poster Abstract Template](#)**
+<a class="button-link" href="#">Download Poster Template</a>
+
+</div>
 
 ---
 
 ## Poster Session Format
-
-Accepted posters will be presented during the dedicated poster and networking session of the workshop. This session will provide an opportunity for attendees to discuss research ideas, emerging directions, and open challenges in the integration of haptics and dexterous manipulation.
-
-We encourage presenters to bring posters that clearly communicate their ideas and stimulate discussion among workshop participants.---
-title: "Call for Posters"
-layout: single
-permalink: /call-for-posters/
----
-
-## Call for Posters
-
-Information about poster submissions will be posted soon.
+Accepted posters will be presented during the **poster session and networking period** of the workshop. This session will provide an opportunity for discussion between presenters, invited speakers, and workshop participants on emerging directions at the intersection of **haptics and dexterous manipulation**.
