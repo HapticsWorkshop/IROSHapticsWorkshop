@@ -1,15 +1,1 @@
-@media (min-width: 1200px) {
-  .page {
-    max-width: 1600px;
-    margin: 0 auto;
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-  .page__content {
-    max-width: 1400px;
-  }
-}
 
-.page__content p {
-  max-width: 1000px;
-}
