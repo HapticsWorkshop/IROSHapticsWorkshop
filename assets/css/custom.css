@@ -1,5 +1,8 @@
 .page {
-  max-width: 1600px;
+max-width: 1600px;
+margin: 0 auto;
+padding-left: 3rem;
+padding-right: 3rem;
 }
 
 .page__content {
