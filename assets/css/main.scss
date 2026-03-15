@@ -6,3 +6,29 @@
 
 @import "minimal-mistakes/skins/default";
 @import "minimal-mistakes";
+
+/* Wider, centered layout on large screens */
+@media (min-width: 80em) {
+  .masthead__inner-wrap,
+  .initial-content,
+  .search-content,
+  .page__footer footer {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .layout--single .page,
+  .page {
+    float: none;
+    width: 100%;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0;
+  }
+
+  .page__inner-wrap {
+    max-width: 100%;
+  }
+}
