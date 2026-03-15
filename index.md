@@ -12,6 +12,14 @@ This workshop explores how recent progress in tactile sensing, haptic interface 
 
 Through invited talks, structured discussion, and an interactive poster session, participants will identify current limitations and promising directions for research and translation. With robotic systems increasingly deployed in real-world environments, IROS 2026 provides a timely forum to address the gap between advances in manipulation algorithms and the sensing capabilities required for robust physical interaction.
 
+## Workshop Objectives
+
+The goal of this workshop is to advance the role of haptics as a key enabling modality for dexterous robotic manipulation. Specifically, the workshop aims to:
+
+- Highlight recent advances in tactile sensing, haptic actuation, and interface design that enable improved manipulation capabilities in robotic and human–machine systems.
+- Identify critical technical challenges and research gaps in tactile sensing, contact modeling, and haptic rendering that currently limit manipulation performance.
+- Promote interdisciplinary dialogue and collaboration among researchers working across robotics, haptics, tactile sensing, and human perception.
+- Discuss emerging application domains for haptic-enabled dexterous systems, including teleoperation, advanced manufacturing, assistive robotics, and rehabilitation technologies.
 
 ## Important information
 - IROS 2026
