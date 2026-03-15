@@ -4,6 +4,40 @@ layout: single
 permalink: /
 ---
 
+<div style="
+background:#f8f9fb;
+border-radius:8px;
+padding:1.5rem 2rem;
+margin:2rem 0;
+">
+
+<h3 style="margin-top:0;">Key Information</h3>
+
+<table style="border:none; width:100%; max-width:700px;">
+<tr>
+<td style="font-weight:600; width:180px;">Conference</td>
+<td>IEEE/RSJ IROS 2026</td>
+</tr>
+
+<tr>
+<td style="font-weight:600;">Location</td>
+<td>Pittsburgh, PA, United States</td>
+</tr>
+
+<tr>
+<td style="font-weight:600;">Workshop Format</td>
+<td>Invited talks, round-table discussion, and poster session</td>
+</tr>
+
+<tr>
+<td style="font-weight:600;">Poster Submissions</td>
+<td>1-page abstract + graphical summary</td>
+</tr>
+
+</table>
+
+</div>
+
 ## Workshop Overview
 
 Human manipulation relies fundamentally on rich tactile and kinesthetic feedback to regulate forces, adapt to contact conditions, and achieve fine motor control. In contrast, many robotic manipulation systems continue to depend predominantly on vision and open-loop strategies, limiting robustness in contact-rich and uncertain environments. While major advances have been achieved in robotic grasping, learning-based control, and actuation technologies, the systematic integration of haptic feedback as a core component of dexterous manipulation remains underdeveloped.
