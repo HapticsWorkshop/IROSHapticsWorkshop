@@ -1,3 +1,9 @@
+---
+title: "Program"
+layout: single
+permalink: /schedule/
+---
+
 <style>
 .schedule-wrapper {
   max-width: 980px;
