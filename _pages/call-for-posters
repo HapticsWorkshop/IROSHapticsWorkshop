@@ -5,148 +5,169 @@ permalink: /call-for-posters/
 ---
 
 <style>
-
-.call-intro {
-font-size: 1.05rem;
-line-height: 1.65;
-margin-bottom: 2rem;
+.call-section {
+  margin-bottom: 2.2rem;
 }
 
-.topics-box {
-background: #f8f9fb;
-padding: 1.5rem;
-border-radius: 6px;
-margin-top: 1rem;
-margin-bottom: 2rem;
+.call-intro p {
+  margin-bottom: 1rem;
 }
 
-.deadlines-table {
-margin-top: 1rem;
-margin-bottom: 2rem;
-border-collapse: collapse;
-width: 100%;
-max-width: 500px;
+.topics-box,
+.submission-box,
+.dates-box {
+  background: #f8f9fb;
+  padding: 1.25rem 1.5rem;
+  border-radius: 8px;
+  margin-top: 0.8rem;
 }
 
-.deadlines-table td {
-padding: 8px 12px;
-border-bottom: 1px solid #eaeaea;
+.topics-box ul,
+.submission-box ul {
+  margin: 0.5rem 0 0 1.2rem;
 }
 
-.deadlines-table td:first-child {
-font-weight: 600;
+.topics-box li,
+.submission-box li {
+  margin-bottom: 0.45rem;
 }
 
-.submission-box {
-background: #f8f9fb;
-padding: 1.5rem;
-border-radius: 6px;
-margin-top: 1rem;
-margin-bottom: 2rem;
+.dates-table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-.button-link {
-display: inline-block;
-padding: 0.6rem 1rem;
-margin-top: 0.5rem;
-margin-right: 0.5rem;
-background: #3b82f6;
-color: white !important;
-border-radius: 4px;
-text-decoration: none !important;
-font-weight: 600;
+.dates-table td {
+  padding: 0.65rem 0;
+  border-bottom: 1px solid #e5e7eb;
 }
 
-.button-link:hover {
-background: #2563eb;
+.dates-table td:first-child {
+  font-weight: 600;
+  width: 55%;
 }
 
+.poster-button {
+  display: inline-block;
+  padding: 0.7rem 1.1rem;
+  margin-right: 0.7rem;
+  margin-top: 0.4rem;
+  background: #4a6fa5;
+  color: #fff !important;
+  text-decoration: none !important;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.poster-button:hover {
+  background: #3c5d8a;
+}
+
+.section-title {
+  margin-bottom: 0.6rem;
+}
 </style>
 
-<div class="call-intro">
+<div class="call-section call-intro">
+  <h2 class="section-title">Call for Posters</h2>
 
-We invite submissions of poster abstracts for the IROS 2026 Workshop on Haptics and Dexterous Manipulation.
+  <p>
+    We invite submissions of poster abstracts for the IROS 2026 Workshop on Haptics and Dexterous Manipulation.
+  </p>
 
-The poster session will provide an informal forum where researchers can present ongoing work, emerging ideas, and recent results related to the integration of **haptics, tactile sensing, and dexterous robotic manipulation**.
+  <p>
+    The poster session will provide an informal forum where researchers can present ongoing work, emerging ideas, and recent results related to the integration of haptics, tactile sensing, and dexterous robotic manipulation.
+  </p>
 
-The goal of this session is to foster discussion and collaboration between researchers working on the fundamental technologies enabling human-like dexterity in robotic systems.
-
+  <p>
+    The goal of this session is to foster discussion and collaboration between researchers working on the fundamental technologies enabling human-like dexterity in robotic systems.
+  </p>
 </div>
 
----
+<div class="call-section">
+  <h2 class="section-title">Topics of Interest</h2>
 
-## Topics of Interest
-
-<div class="topics-box">
-
-Relevant topics include, but are not limited to:
-
-- Haptic feedback for robotic manipulation  
-- Tactile sensing and perception  
-- Bio-inspired tactile systems  
-- Slip detection and tactile event sensing  
-- Dexterous robotic manipulation  
-- Control strategies for dexterous manipulation  
-- Learning-based control for manipulation  
-- Teleoperation and human-in-the-loop manipulation  
-- Human tactile perception and psychophysics  
-- Haptic interfaces and wearable haptics  
-- Machine learning for tactile sensing  
-- Applications of haptics in robotics, VR/AR, and telemanipulation  
-
+  <div class="topics-box">
+    <ul>
+      <li>Haptic feedback for robotic manipulation</li>
+      <li>Tactile sensing and perception</li>
+      <li>Bio-inspired tactile systems</li>
+      <li>Slip detection and tactile event sensing</li>
+      <li>Dexterous robotic manipulation</li>
+      <li>Control strategies for dexterous manipulation</li>
+      <li>Learning-based control for manipulation</li>
+      <li>Teleoperation and human-in-the-loop manipulation</li>
+      <li>Human tactile perception and psychophysics</li>
+      <li>Haptic interfaces and wearable haptics</li>
+      <li>Machine learning for tactile sensing</li>
+      <li>Applications of haptics in robotics, VR/AR, and telemanipulation</li>
+    </ul>
+  </div>
 </div>
 
----
+<div class="call-section">
+  <h2 class="section-title">Submission Guidelines</h2>
 
-## Submission Guidelines
+  <div class="submission-box">
+    <p>
+      Poster submissions should include:
+    </p>
 
-Poster submissions should include:
+    <ul>
+      <li>One-page abstract in PDF format</li>
+      <li>Title, authors, affiliations, and a brief description of the work</li>
+      <li>Optional figures illustrating the approach or results</li>
+      <li>A required graphical summary in PNG or JPG format</li>
+    </ul>
 
-**1. One-page abstract (PDF)**  
-
-The abstract should contain:
-
-- Title  
-- Authors and affiliations  
-- Brief description of the work  
-- Optional figures illustrating the approach or results  
-
-**2. Graphical summary (required)**  
-
-Authors must also submit a **graphical summary** illustrating the key idea of the work.
-
-This image will be used for:
-
-- the poster listing on the workshop website  
-- the digital poster booklet distributed to workshop participants  
-
-The graphical summary should be provided as **PNG or JPG**.
-
----
-
-## Important Dates
-
-<table class="deadlines-table">
-<tr><td>Poster submission deadline</td><td>TBD</td></tr>
-<tr><td>Notification of acceptance</td><td>TBD</td></tr>
-<tr><td>Workshop date</td><td>IROS 2026</td></tr>
-</table>
-
----
-
-## Submission
-
-<div class="submission-box">
-
-Poster abstracts and graphical summaries should be submitted through the form below.
-
-<a class="button-link" href="#">Poster Submission Form</a>
-
-<a class="button-link" href="#">Download Poster Template</a>
-
+    <p>
+      The graphical summary will be used for the poster listing on the workshop website and for the digital poster booklet distributed to workshop participants.
+    </p>
+  </div>
 </div>
 
----
+<div class="call-section">
+  <h2 class="section-title">Important Dates</h2>
 
-## Poster Session Format
-Accepted posters will be presented during the **poster session and networking period** of the workshop. This session will provide an opportunity for discussion between presenters, invited speakers, and workshop participants on emerging directions at the intersection of **haptics and dexterous manipulation**.
+  <div class="dates-box">
+    <table class="dates-table">
+      <tr>
+        <td>Poster submission deadline</td>
+        <td>TBD</td>
+      </tr>
+      <tr>
+        <td>Notification of acceptance</td>
+        <td>TBD</td>
+      </tr>
+      <tr>
+        <td>Workshop date</td>
+        <td>IROS 2026</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div class="call-section">
+  <h2 class="section-title">Submission</h2>
+
+  <div class="submission-box">
+    <p>
+      Poster abstracts and graphical summaries should be submitted through the form below.
+    </p>
+
+    <a class="poster-button" href="#">Poster Submission Form</a>
+    <a class="poster-button" href="#">Download Poster Template</a>
+  </div>
+</div>
+
+<div class="call-section">
+  <h2 class="section-title">Poster Session Format</h2>
+
+  <p>
+    Accepted posters will be presented during the poster session and networking period of the workshop.
+  </p>
+
+  <p>
+    This session will provide an opportunity for discussion between presenters, invited speakers, and workshop participants on emerging directions at the intersection of haptics and dexterous manipulation.
+  </p>
+</div>
