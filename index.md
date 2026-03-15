@@ -76,6 +76,10 @@ object-fit:contain;
 <img class="sponsor-logo" src="/IROSHapticsWorkshop/assets/images/logos/HAND.jpg">
 </a>
 
+<a href="https://shredlabcmu.github.io/" target="_blank">
+<img class="sponsor-logo" src="/IROSHapticsWorkshop/assets/images/logos/SHRED.png">
+</a>
+
 </div>
 
 <div class="footer-title">Organizing Institutions</div>
