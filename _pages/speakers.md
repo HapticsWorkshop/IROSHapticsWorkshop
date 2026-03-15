@@ -120,7 +120,7 @@ permalink: /speakers/
 
   <div class="speaker-card">
     <a class="speaker-image-link" href="https://www.linkedin.com/in/jmullenbach/" target="_blank" rel="noopener noreferrer">
-      <img src="/IROSHapticsWorkshop/assets/images/speakers/joe.jpg" alt="Joe Mullenbach">
+      <img src="/IROSHapticsWorkshop/assets/images/speakers/joe.jpeg" alt="Joe Mullenbach">
     </a>
 
     <div>
