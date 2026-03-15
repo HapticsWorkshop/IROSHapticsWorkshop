@@ -14,8 +14,8 @@ Through invited talks, structured discussion, and an interactive poster session,
 
 
 ## Important information
-IROS 2026
-- Date: Sept 27 to April 1TBD
+- IROS 2026
+- Date: Sept 27 to April 1
 - Location: David L. Lawrence Convention Center, Pittsburgh, PA, United States
 - Call for Posters: coming soon
 
