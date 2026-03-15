@@ -17,7 +17,7 @@ This workshop will bring together researchers from haptics, tactile sensing, dex
 - Call for Posters: coming soon
 
 ## Important Links
-- [Organizers](/organizers/)
-- [Speakers](/speakers/)
-- [Schedule](/schedule/)
-- [Call for Posters](/call-for-posters/)
+- [Organizers]({{ '/organizers/' | relative_url }})
+- [Speakers]({{ '/speakers/' | relative_url }})
+- [Schedule]({{ '/schedule/' | relative_url }})
+- [Call for Posters]({{ '/call-for-posters/' | relative_url }})
