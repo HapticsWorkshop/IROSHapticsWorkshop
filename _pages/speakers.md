@@ -128,8 +128,7 @@ permalink: /speakers/
       <div class="speaker-institution">Fluid Reality</div>
       <div class="speaker-title">High Resolution Haptics for Teleoperation</div>
       <div class="speaker-abstract">
-        Short abstract goes here. You can duplicate this block for each invited speaker and just
-        replace the image, webpage, title, and abstract.
+        Industry perspective on next-generation haptic technologies.
       </div>
     </div>
   </div>
