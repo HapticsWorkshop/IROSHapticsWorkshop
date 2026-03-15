@@ -24,26 +24,43 @@ Relevant topics include, but are not limited to:
 - Bio-inspired tactile systems  
 - Slip detection and tactile event sensing  
 - Dexterous robotic manipulation  
+- Control strategies for dexterous manipulation  
+- Learning-based control and policy optimization for manipulation  
 - Teleoperation and human-in-the-loop manipulation  
 - Human tactile perception and psychophysics  
 - Haptic interfaces and wearable haptics  
 - Tactile data processing and machine learning for touch  
 - Applications of haptics in robotics, VR/AR, and telemanipulation
+- Soft materials and structures for tactile interaction
 
 ---
 
 ## Submission Guidelines
 
-Poster submissions should consist of a **1-page abstract** describing the work to be presented.
+Poster submissions should consist of:
 
-Abstracts should include:
+**1. A 1-page abstract (PDF)** describing the work to be presented.
+
+The abstract should include:
 
 - Title  
 - Author names and affiliations  
 - A short description of the research contribution  
 - Optional figures illustrating the approach or results  
 
-Submissions should be provided as a **PDF file**.
+**2. Graphical Summary (required)**
+
+Authors must also submit a **graphical summary** representing the work.  
+This image will be used for:
+
+- the poster listing on the workshop website  
+- the digital poster booklet distributed to workshop attendees  
+
+The graphical summary should:
+
+- clearly illustrate the main idea or contribution of the work  
+- be provided as a **PNG or JPG file**  
+- have sufficient resolution for web and booklet display
 
 Accepted abstracts will be presented as posters during the workshop and will be listed on the workshop website.
 
