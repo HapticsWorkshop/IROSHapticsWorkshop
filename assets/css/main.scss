@@ -1,0 +1,29 @@
+---
+# Only the main Sass file needs front matter
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/default";
+@import "minimal-mistakes";
+
+/* Wider layout on large screens only */
+@media (min-width: 1200px) {
+  .page {
+    width: 100%;
+    max-width: 1600px;
+  }
+
+  .page__inner-wrap {
+    max-width: 1400px;
+  }
+
+  .archive {
+    width: 100%;
+    max-width: 1400px;
+  }
+
+  .page__content {
+    max-width: 100%;
+  }
+}
