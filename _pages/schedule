@@ -4,46 +4,193 @@ layout: single
 permalink: /schedule/
 ---
 
-## Workshop Schedule
+<style>
+.schedule-day {
+  margin-top: 2rem;
+}
 
-Time
-Talk
-Comments
-08:30 - 08:40
-Welcome and presentation of the workshop goals
+.schedule-block {
+  margin-bottom: 2.2rem;
+}
 
+.schedule-session-title {
+  font-size: 1.18rem;
+  font-weight: 700;
+  margin-bottom: 0.9rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid #e5e5e5;
+}
 
-Session 1: Crossing Paths: Haptics and Dexterous Manipulation
-08:40 - 09:00
-Keynote 1 "Human tactile perception"
-Speaker: Roberta Klatzky
-09:00 - 09:20
-Keynote 2 "Bio-inspired tactile sensing and robotic manipulation"
-Speaker: Nathan Lepora
-09:20 - 09:40
-Keynote 3 "Haptic interfaces, teleoperation, and human–robot interaction"
-Speaker Allison Okamura
-09:40 - 10:00
-Keynote 4 "Tactile feedback and haptic interaction”
-Speaker: Rebecca Friesen
-10:00 - 10:20
-Keynote 5 “Applied robotic dexterous manipulation"
-Speaker: Joe Mullenbach
-10:20 - 11:00
-Coffee Break
+.schedule-item {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 1.2rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #f0f0f0;
+  align-items: start;
+}
 
+.schedule-time {
+  font-weight: 600;
+  white-space: nowrap;
+}
 
-Session 2: Discussion: Can we enhance dexterous manipulation through haptics?
-11:00 - 11:40  
-Round table with speakers
+.schedule-content {
+  line-height: 1.5;
+}
 
+.schedule-label {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.18rem 0.5rem;
+  margin-bottom: 0.45rem;
+  border-radius: 999px;
+  background: #f3f4f6;
+  color: #444;
+}
 
-11:40 - 12:15
-Poster Session and networking
+.schedule-title {
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
 
+.schedule-speaker {
+  font-style: italic;
+  font-weight: 600;
+}
 
-12:15 - 12:30
-Closing Remarks
+.schedule-affiliation {
+  font-size: 0.94rem;
+  color: #666;
+  margin-top: 0.08rem;
+}
 
+.schedule-subtitle {
+  font-size: 0.95rem;
+  color: #666;
+  margin-top: 0.2rem;
+}
 
+@media screen and (max-width: 700px) {
+  .schedule-item {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+  }
+}
+</style>
 
+## Workshop Program
+
+<div class="schedule-block">
+  <div class="schedule-session-title">Opening</div>
+
+  <div class="schedule-item">
+    <div class="schedule-time">08:30 – 08:40</div>
+    <div class="schedule-content">
+      <div class="schedule-title">Welcome and presentation of the workshop goals</div>
+    </div>
+  </div>
+</div>
+
+<div class="schedule-block">
+  <div class="schedule-session-title">Session 1: Crossing Paths — Haptics and Dexterous Manipulation</div>
+
+  <div class="schedule-item">
+    <div class="schedule-time">08:40 – 09:00</div>
+    <div class="schedule-content">
+      <div class="schedule-label">Keynote 1</div>
+      <div class="schedule-title">Human tactile perception</div>
+      <div class="schedule-speaker">Roberta Klatzky</div>
+      <div class="schedule-affiliation">Carnegie Mellon University</div>
+    </div>
+  </div>
+
+  <div class="schedule-item">
+    <div class="schedule-time">09:00 – 09:20</div>
+    <div class="schedule-content">
+      <div class="schedule-label">Keynote 2</div>
+      <div class="schedule-title">Bio-inspired tactile sensing and robotic manipulation</div>
+      <div class="schedule-speaker">Nathan Lepora</div>
+      <div class="schedule-affiliation">University of Bristol</div>
+    </div>
+  </div>
+
+  <div class="schedule-item">
+    <div class="schedule-time">09:20 – 09:40</div>
+    <div class="schedule-content">
+      <div class="schedule-label">Keynote 3</div>
+      <div class="schedule-title">Haptic interfaces, teleoperation, and human–robot interaction</div>
+      <div class="schedule-speaker">Allison Okamura</div>
+      <div class="schedule-affiliation">Stanford University</div>
+    </div>
+  </div>
+
+  <div class="schedule-item">
+    <div class="schedule-time">09:40 – 10:00</div>
+    <div class="schedule-content">
+      <div class="schedule-label">Keynote 4</div>
+      <div class="schedule-title">Tactile feedback and haptic interaction</div>
+      <div class="schedule-speaker">Rebecca Friesen</div>
+      <div class="schedule-affiliation">Texas A&M</div>
+    </div>
+  </div>
+
+  <div class="schedule-item">
+    <div class="schedule-time">10:00 – 10:20</div>
+    <div class="schedule-content">
+      <div class="schedule-label">Keynote 5</div>
+      <div class="schedule-title">Applied robotic dexterous manipulation</div>
+      <div class="schedule-speaker">Joe Mullenbach</div>
+      <div class="schedule-affiliation">Fluid Reality</div>
+    </div>
+  </div>
+</div>
+
+<div class="schedule-block">
+  <div class="schedule-session-title">Break</div>
+
+  <div class="schedule-item">
+    <div class="schedule-time">10:20 – 11:00</div>
+    <div class="schedule-content">
+      <div class="schedule-title">Coffee break</div>
+    </div>
+  </div>
+</div>
+
+<div class="schedule-block">
+  <div class="schedule-session-title">Session 2: Discussion — Can We Enhance Dexterous Manipulation Through Haptics?</div>
+
+  <div class="schedule-item">
+    <div class="schedule-time">11:00 – 11:40</div>
+    <div class="schedule-content">
+      <div class="schedule-title">Round-table discussion with invited speakers</div>
+      <div class="schedule-subtitle">Open discussion on future directions, challenges, and opportunities at the intersection of haptics and dexterous manipulation</div>
+    </div>
+  </div>
+</div>
+
+<div class="schedule-block">
+  <div class="schedule-session-title">Poster Session</div>
+
+  <div class="schedule-item">
+    <div class="schedule-time">11:40 – 12:15</div>
+    <div class="schedule-content">
+      <div class="schedule-title">Poster session and networking</div>
+      <div class="schedule-subtitle">Informal discussion with presenters, speakers, and attendees</div>
+    </div>
+  </div>
+</div>
+
+<div class="schedule-block">
+  <div class="schedule-session-title">Closing</div>
+
+  <div class="schedule-item">
+    <div class="schedule-time">12:15 – 12:30</div>
+    <div class="schedule-content">
+      <div class="schedule-title">Closing remarks</div>
+    </div>
+  </div>
+</div>
