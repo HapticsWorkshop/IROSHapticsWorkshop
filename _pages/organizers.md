@@ -15,6 +15,24 @@ permalink: /organizers/
     <div class="organizer-affiliation">Carnegie Mellon University</div>
   </div>
 
+  <div class="organizer-card">
+    <a class="organizer-image-link" href="https://iquibalamhm.github.io/" target="_blank" rel="noopener noreferrer">
+      <img src="{{ '/assets/images/organizers/iqui.jpg' | relative_url }}" alt="Iqui Heredia Marin">
+    </a>
+    <div class="organizer-name">Iqui Balam Heredia Marin</div>
+    <div class="organizer-position">PhD Student</div>
+    <div class="organizer-affiliation">Carnegie Mellon University</div>
+  </div>
+
+<div class="organizer-card">
+  <a class="organizer-image-link" href="https://www.linkedin.com/in/ahmed-zid-70328a182/" target="_blank" rel="noopener noreferrer">
+    <img src="{{ '/assets/images/organizers/ahmed.png' | relative_url }}" alt="Ahmed Zid">
+  </a>
+  <div class="organizer-name">Ahmed Zid</div>
+  <div class="organizer-position">PhD Student</div>
+  <div class="organizer-affiliation">Texas A&M University</div>
+</div>
+
 <div class="organizer-card">
   <a class="organizer-image-link" href="https://www.ri.cmu.edu/ri-faculty/melisa-orta-martinez/" target="_blank" rel="noopener noreferrer">
     <img src="{{ '/assets/images/organizers/melisa.png' | relative_url }}" alt="Melisa Orta-Martinez">
