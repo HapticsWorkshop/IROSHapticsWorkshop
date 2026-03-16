@@ -142,10 +142,9 @@ permalink: /speakers/
       <div class="speaker-name">Rebecca Friesen</div>
       <div class="speaker-position">Assistant Professor</div>
       <div class="speaker-institution">Texas A&M University</div>
-      <div class="speaker-title">Tactile feedback and haptic interaction</div>
+      <div class="speaker-title">Sensorizing Human Dexterous Manipulation to Inform Tactile Strategies for Robotic Hands</div>
       <div class="speaker-abstract">
-        Short abstract goes here. You can duplicate this block for each invited speaker and just
-        replace the image, webpage, title, and abstract.
+        Human hands continuously regulate grip force, tangential loading, and local skin deformation during dexterous tasks, yet many of these tactile dynamics remain difficult to measure and are rarely incorporated into robotic manipulation frameworks. We present a sensing platform designed around an everyday dexterous task (jar opening) that simultaneously records fingertip forces and fingerpad skin deformation during active manipulation. Preliminary results suggest tightly coordinated grip adaptation during loading, along with distinct functional roles across digits: one finger appears to stabilize contact while the other contributes more actively to torque generation. These findings motivate discussion of how tactile sensing in robotic hands might move beyond global force measurement toward richer representations of contact state, slip, and finger-specific control during contact-rich manipulation.
       </div>
     </div>
   </div>
