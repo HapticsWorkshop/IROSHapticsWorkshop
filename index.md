@@ -99,6 +99,10 @@ object-fit:contain;
 <a href="https://www.ri.cmu.edu/" target="_blank">
 <img class="institution-logo" src="/IROSHapticsWorkshop/assets/images/logos/ri-cmu.png">
 </a>
+
+<a href="https://www.tamu.edu/index.html" target="_blank">
+<img class="institution-logo" src="/IROSHapticsWorkshop/assets/images/logos/TAM.png">
+</a>
 </div>
 
 </div>
