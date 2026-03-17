@@ -110,7 +110,7 @@ object-fit:contain;
 </a>
 
 <a href="https://www.mit.edu/" target="_blank">
-<img class="institution-logo" src="/IROSHapticsWorkshop/assets/images/logos/MIT.jpeg">
+<img class="institution-logo" src="/IROSHapticsWorkshop/assets/images/logos/MIT.png">
 </a>
 
 </div>
