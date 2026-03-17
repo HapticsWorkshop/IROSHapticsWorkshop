@@ -90,6 +90,11 @@ object-fit:contain;
 <img class="sponsor-logo" src="/IROSHapticsWorkshop/assets/images/logos/SHRED.png">
 </a>
 
+<a href="https://interactive.mit.edu/" target="_blank">
+<img class="sponsor-logo" src="/IROSHapticsWorkshop/assets/images/logos/logoMIT.png">
+</a>
+
+
 </div>
 
 <div class="footer-title">Organizing Institutions</div>
@@ -103,6 +108,11 @@ object-fit:contain;
 <a href="https://www.tamu.edu/index.html" target="_blank">
 <img class="institution-logo" src="/IROSHapticsWorkshop/assets/images/logos/TAM.png">
 </a>
+
+<a href="https://www.mit.edu/" target="_blank">
+<img class="institution-logo" src="/IROSHapticsWorkshop/assets/images/logos/MIT.jpeg">
+</a>
+
 </div>
 
 </div>
