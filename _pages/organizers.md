@@ -34,6 +34,15 @@ permalink: /organizers/
 </div>
 
 <div class="organizer-card">
+  <a class="organizer-image-link" href="https://interactive.mit.edu/" target="_blank" rel="noopener noreferrer">
+    <img src="{{ '/assets/images/organizers/tavishi.png' | relative_url }}" alt="Thavishi Illandara">
+  </a>
+  <div class="organizer-name">Thavishi Harindi Illandara</div>
+  <div class="organizer-position">PhD Student</div>
+  <div class="organizer-affiliation">MIT</div>
+</div>
+
+<div class="organizer-card">
   <a class="organizer-image-link" href="https://www.ri.cmu.edu/ri-faculty/melisa-orta-martinez/" target="_blank" rel="noopener noreferrer">
     <img src="{{ '/assets/images/organizers/melisa.png' | relative_url }}" alt="Melisa Orta-Martinez">
   </a>
