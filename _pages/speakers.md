@@ -157,9 +157,9 @@ permalink: /speakers/
       <div class="speaker-name">Roberta Klatzky</div>
       <div class="speaker-position">Charles J. Queenan, Jr. University Professor of Psychology</div>
       <div class="speaker-institution">Carnegie Mellon University</div>
-      <div class="speaker-title">Human tactile perception</div>
+      <div class="speaker-title">Role of touch in active manipulation</div>
       <div class="speaker-abstract">
-        Short abstract goes here.
+        Touch is complex to model computationally and costly to simulate in robot sensors and actuators.  These barriers have increasingly led engineers to emphasize visual guidance as a tool for dexterous robot manipulation.  Using human manipulation as a model, I will argue for the critical importance of haptic sensing.  My talk will review contributions of touch to human dexterity arising from multiple levels in the biological system — starting at the skin, progressing to the spinal cord and subcortical centers, and terminating in cortical brain centers that reciprocally decode signals from active touch and initiate exploratory behavior.
       </div>
     </div>
   </div>
