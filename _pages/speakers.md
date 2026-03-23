@@ -128,7 +128,7 @@ permalink: /speakers/
       <div class="speaker-institution">Fluid Reality</div>
       <div class="speaker-title">High Resolution Haptics for Teleoperation</div>
       <div class="speaker-abstract">
-        Industry perspective on next-generation haptic technologies.
+        Industry perspective on next-generation haptic technologies and how these can revolutionize teleoperation.
       </div>
     </div>
   </div>
@@ -159,8 +159,7 @@ permalink: /speakers/
       <div class="speaker-institution">Carnegie Mellon University</div>
       <div class="speaker-title">Human tactile perception</div>
       <div class="speaker-abstract">
-        Short abstract goes here. You can duplicate this block for each invited speaker and just
-        replace the image, webpage, title, and abstract.
+        Short abstract goes here.
       </div>
     </div>
   </div>
