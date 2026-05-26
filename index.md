@@ -25,7 +25,7 @@ The goal of this workshop is to advance the role of haptics as a key enabling mo
 - <a href="https://2026.ieee-iros.org/">IROS 2026</a>
 - Conference dates: Sept 27 to April 1
 - Workshop date: TBD
-- Location: David L. Lawrence Convention Center, Pittsburgh, PA, United States
+- Location: <a href="https://www.pittsburghcc.com/">David L. Lawrence Convention Center, Pittsburgh, PA, United States</a>
 - Call for Posters: coming soon
 
 ## Important Links
