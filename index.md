@@ -26,7 +26,7 @@ The goal of this workshop is to advance the role of haptics as a key enabling mo
 - Conference dates: Sept 27 to April 1
 - Workshop date: TBD
 - Location: <a href="https://www.pittsburghcc.com/">David L. Lawrence Convention Center, Pittsburgh, PA, United States</a>
-- Call for Posters: coming soon
+- Call for Posters: OPEN
 
 ## Important Links
 - [Organizers]({{ '/organizers/' | relative_url }})
