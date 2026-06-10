@@ -23,7 +23,7 @@ The goal of this workshop is to advance the role of haptics as a key enabling mo
 
 ## Important information
 - <a href="https://2026.ieee-iros.org/">IROS 2026</a>
-- Conference dates: Sept 27 to April 1
+- Conference dates: Sept 27<sup>th</sup> to October 1<sup>st</sup>
 - Workshop date: TBD
 - Location: <a href="https://www.pittsburghcc.com/">David L. Lawrence Convention Center, Pittsburgh, PA, United States</a>
 - Call for Posters: OPEN
@@ -33,6 +33,9 @@ The goal of this workshop is to advance the role of haptics as a key enabling mo
 - [Speakers]({{ '/speakers/' | relative_url }})
 - [Schedule]({{ '/schedule/' | relative_url }})
 - [Call for Posters]({{ '/call-for-posters/' | relative_url }})
+
+## Contact
+Questions about the workshop? Reach us at <a href="mailto:hapticsworkshop@gmail.com">hapticsworkshop@gmail.com</a>.
 
 ---
 
@@ -74,7 +77,68 @@ max-width:180px;
 object-fit:contain;
 }
 
+/* Mailing list signup */
+.signup-section{
+margin-top:3rem;
+padding:2rem;
+border:1px solid #e5e7eb;
+border-radius:8px;
+text-align:center;
+}
+.signup-title{
+font-size:1.15rem;
+font-weight:600;
+margin-bottom:0.5rem;
+}
+.signup-blurb{
+margin-bottom:1.25rem;
+color:#4b5563;
+}
+.signup-form{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:0.5rem;
+}
+.signup-form input[type="email"]{
+padding:0.6rem 0.9rem;
+border:1px solid #cbd5e1;
+border-radius:6px;
+min-width:260px;
+font-size:1rem;
+}
+.signup-form button{
+padding:0.6rem 1.4rem;
+border:none;
+border-radius:6px;
+background:#2563eb;
+color:#fff;
+font-size:1rem;
+font-weight:600;
+cursor:pointer;
+}
+.signup-form button:hover{
+background:#1d4ed8;
+}
+
 </style>
+
+<div class="signup-section">
+
+<div class="signup-title">Join our mailing list</div>
+
+<div class="signup-blurb">Get important announcements, no spam.</div>
+
+<!-- Posts to a Google Form; responses land in its linked Google Sheet.
+     The hidden iframe keeps the visitor on this page instead of redirecting to Google. -->
+<form id="signup-form" class="signup-form" action="https://docs.google.com/forms/d/e/1FAIpQLSf-T0E4QL8dcfk9tmiPRjH19jzxg2zV7lCnGSvgBCklMTYzZQ/formResponse" method="post" target="signup-sink" onsubmit="setTimeout(function(){document.getElementById('signup-form').style.display='none';document.getElementById('signup-thanks').style.display='block';},150);return true;">
+<input type="email" name="entry.24419069" placeholder="you@example.com" required>
+<button type="submit">Subscribe</button>
+</form>
+<div id="signup-thanks" style="display:none;font-weight:600;color:#16a34a;">Thanks for subscribing! 🎉</div>
+<iframe name="signup-sink" style="display:none;" aria-hidden="true"></iframe>
+
+</div>
 
 <div class="footer-section">
 
