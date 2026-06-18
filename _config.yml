@@ -7,6 +7,10 @@ plugins:
 minimal_mistakes_skin: "default"
 search: false
 
+# Small logo shown in the masthead/navbar (theme caps it at ~2rem tall).
+# Path is relative to the site root; the theme prepends the baseurl.
+logo: "/assets/images/logos/workshopLogo-horizontal.png"
+
 url: "https://hapticsworkshop.github.io"
 baseurl: "/IROSHapticsWorkshop"
 
