@@ -34,7 +34,7 @@ The workshop is a half-day (4.5 hour) morning session built around five invited 
 | **Workshop date** | Thursday, October 1, 2026, 8:00 AM – 12:30 PM |
 | **Location** | [David L. Lawrence Convention Center](https://www.pittsburghcc.com/), Pittsburgh, PA, United States |
 | **Registration** | Open to all registered IROS 2026 participants; no separate workshop registration is required |
-| **Call for posters** | Open — deadline August 14, 2026 ([details]({{ '/call-for-posters/' | relative_url }})) |
+| **Call for posters** | Open — deadline extended to August 25, 2026 ([details]({{ '/call-for-posters/' | relative_url }})) |
 
 ## Organizers
 

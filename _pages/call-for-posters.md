@@ -2,7 +2,7 @@
 title: "Call for Posters"
 layout: single
 permalink: /call-for-posters/
-excerpt: "Call for poster abstracts for the IROS 2026 workshop on haptics and dexterous manipulation. Submission deadline: August 14, 2026."
+excerpt: "Call for poster abstracts for the IROS 2026 workshop on haptics and dexterous manipulation. Submission deadline extended to August 25, 2026."
 ---
 
 <div class="call-section call-intro">
@@ -71,13 +71,15 @@ excerpt: "Call for poster abstracts for the IROS 2026 workshop on haptics and de
 
   <div class="dates-box">
     <table class="dates-table">
+      <!-- Extension announced 2026-08-04. Once the new deadline passes, drop the
+           <del> spans and the "extended" tags and leave the plain dates. -->
       <tr>
         <td>Poster submission deadline</td>
-        <td>August 14, 2026</td>
+        <td><del>August 14, 2026</del> <strong>August 25, 2026</strong> <span class="date-tag">extended</span></td>
       </tr>
       <tr>
         <td>Notification of acceptance</td>
-        <td>August 25, 2026</td>
+        <td><del>August 25, 2026</del> <strong>September 1, 2026</strong> <span class="date-tag">extended</span></td>
       </tr>
       <tr>
         <td>Workshop date</td>
