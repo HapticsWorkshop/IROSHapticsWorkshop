@@ -2,71 +2,8 @@
 title: "Call for Posters"
 layout: single
 permalink: /call-for-posters/
+excerpt: "Call for poster abstracts for the IROS 2026 workshop on haptics and dexterous manipulation. Submission deadline: August 14, 2026."
 ---
-
-<style>
-.call-section {
-  margin-bottom: 2.2rem;
-}
-
-.call-intro p {
-  margin-bottom: 1rem;
-}
-
-.topics-box,
-.submission-box,
-.dates-box {
-  background: #f8f9fb;
-  padding: 1.25rem 1.5rem;
-  border-radius: 8px;
-  margin-top: 0.8rem;
-}
-
-.topics-box ul,
-.submission-box ul {
-  margin: 0.5rem 0 0 1.2rem;
-}
-
-.topics-box li,
-.submission-box li {
-  margin-bottom: 0.45rem;
-}
-
-.dates-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.dates-table td {
-  padding: 0.65rem 0;
-  border-bottom: 1px solid #e5e7eb;
-}
-
-.dates-table td:first-child {
-  font-weight: 600;
-  width: 55%;
-}
-
-.poster-button {
-  display: inline-block;
-  padding: 0.7rem 1.1rem;
-  margin-right: 0.7rem;
-  margin-top: 0.4rem;
-  background: #4a6fa5;
-  color: #fff !important;
-  text-decoration: none !important;
-  border-radius: 6px;
-  font-weight: 600;
-}
-
-.poster-button:hover {
-  background: #3c5d8a;
-}
-
-.section-title {
-  margin-bottom: 0.6rem;
-}
-</style>
 
 <div class="call-section call-intro">
 

@@ -3,6 +3,8 @@ description: "Workshop on Haptics and Dexterous Manipulation"
 remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 plugins:
   - jekyll-include-cache
+  - jekyll-feed # the theme footer links to /feed.xml; without this it 404s
+  - jekyll-sitemap
 
 minimal_mistakes_skin: "default"
 search: false

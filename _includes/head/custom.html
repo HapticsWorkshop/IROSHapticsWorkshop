@@ -1,5 +1,35 @@
-<!-- Favicons (workshop logo). minimal-mistakes includes this file inside <head> on every page. -->
+<!-- minimal-mistakes includes this file inside <head> on every page. -->
+
+<!-- Favicons (workshop logo). -->
 <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicons/favicon-32x32.png' | relative_url }}">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicons/favicon-16x16.png' | relative_url }}">
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/favicons/apple-touch-icon.png' | relative_url }}">
 <link rel="shortcut icon" href="{{ '/favicon.ico' | relative_url }}">
+
+<!-- Typography: Space Grotesk for headings, Inter for body. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap">
+
+<!-- Social sharing cards. Without these the site renders as a bare URL when the
+     link is posted to X, LinkedIn, Slack, or Bluesky. -->
+{%- assign share_title = page.title | default: site.title -%}
+{%- assign share_desc = page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 200 -%}
+{%- assign share_image = '/assets/images/og-card.png' | absolute_url -%}
+
+<meta name="description" content="{{ share_desc }}">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="IROS 2026 Workshop on Haptics and Dexterous Manipulation">
+<meta property="og:title" content="{{ share_title }}">
+<meta property="og:description" content="{{ share_desc }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="{{ share_image }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="IROS 2026 Workshop: Enhancing Dexterous Manipulation Through Haptic Feedback. October 1, 2026, Pittsburgh, PA.">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ share_title }}">
+<meta name="twitter:description" content="{{ share_desc }}">
+<meta name="twitter:image" content="{{ share_image }}">

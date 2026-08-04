@@ -2,84 +2,8 @@
 title: "Speakers"
 layout: single
 permalink: /speakers/
+excerpt: "Invited speakers for the IROS 2026 workshop on haptics and dexterous manipulation: Allison Okamura, Nathan Lepora, Roberta Klatzky, Rebecca Friesen, and Joe Mullenbach."
 ---
-
-<style>
-.speakers-list {
-  margin-top: 2rem;
-}
-
-.speaker-card {
-  display: grid;
-  grid-template-columns: 180px 1fr;
-  gap: 2rem;
-  align-items: start;
-  margin-bottom: 2.5rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid #eaeaea;
-}
-
-.speaker-image-link {
-  display: inline-block;
-  text-decoration: none;
-  border-bottom: none !important;
-}
-
-.speaker-card img {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 50%;
-  display: block;
-}
-
-.speaker-name {
-  font-size: 1.2rem;
-  font-weight: 700;
-  line-height: 1.3;
-  margin-bottom: 0.25rem;
-}
-
-.speaker-position {
-  font-size: 1rem;
-  line-height: 1.35;
-  margin-bottom: 0.15rem;
-}
-
-.speaker-institution {
-  font-size: 0.98rem;
-  line-height: 1.35;
-  color: #666;
-  margin-bottom: 0.35rem;
-}
-
-.speaker-title {
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.4;
-  margin-bottom: 0.75rem;
-}
-
-.speaker-abstract {
-  font-size: 0.96rem;
-  line-height: 1.65;
-  color: #333;
-}
-
-@media screen and (max-width: 700px) {
-  .speaker-card {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
-  .speaker-card img {
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-  }
-}
-</style>
 
 ## Invited Speakers
 
@@ -87,7 +11,7 @@ permalink: /speakers/
 
   <div class="speaker-card">
     <a class="speaker-image-link" href="https://charm.stanford.edu/Main/AllisonOkamura" target="_blank" rel="noopener noreferrer">
-      <img src="/IROSHapticsWorkshop/assets/images/speakers/okamura.jpg" alt="Allison Okamura">
+      <img src="{{ '/assets/images/speakers/okamura.jpg' | relative_url }}" alt="Allison Okamura">
     </a>
 
     <div>
@@ -103,7 +27,7 @@ permalink: /speakers/
 
   <div class="speaker-card">
     <a class="speaker-image-link" href="https://lepora.com/" target="_blank" rel="noopener noreferrer">
-      <img src="/IROSHapticsWorkshop/assets/images/speakers/nathan.jpg" alt="Nathan Lepora">
+      <img src="{{ '/assets/images/speakers/nathan.jpg' | relative_url }}" alt="Nathan Lepora">
     </a>
 
     <div>
@@ -119,7 +43,7 @@ permalink: /speakers/
 
   <div class="speaker-card">
     <a class="speaker-image-link" href="https://www.linkedin.com/in/jmullenbach/" target="_blank" rel="noopener noreferrer">
-      <img src="/IROSHapticsWorkshop/assets/images/speakers/joe.jpeg" alt="Joe Mullenbach">
+      <img src="{{ '/assets/images/speakers/joe.jpeg' | relative_url }}" alt="Joe Mullenbach">
     </a>
 
     <div>
@@ -135,7 +59,7 @@ permalink: /speakers/
 
   <div class="speaker-card">
     <a class="speaker-image-link" href="https://engineering.tamu.edu/mechanical/profiles/friesen-rebecca.html" target="_blank" rel="noopener noreferrer">
-      <img src="/IROSHapticsWorkshop/assets/images/speakers/Rebecca.jpg" alt="Rebecca Friesen">
+      <img src="{{ '/assets/images/speakers/Rebecca.jpg' | relative_url }}" alt="Rebecca Friesen">
     </a>
 
     <div>
@@ -151,7 +75,7 @@ permalink: /speakers/
 
   <div class="speaker-card">
     <a class="speaker-image-link" href="https://www.cmu.edu/dietrich/psychology/directory/core-training-faculty/klatzky-roberta.html" target="_blank" rel="noopener noreferrer">
-      <img src="/IROSHapticsWorkshop/assets/images/organizers/Bobby.jpg" alt="Roberta Klatzky">
+      <img src="{{ '/assets/images/organizers/Bobby.jpg' | relative_url }}" alt="Roberta Klatzky">
     </a>
     <div>
       <div class="speaker-name">Roberta Klatzky</div>

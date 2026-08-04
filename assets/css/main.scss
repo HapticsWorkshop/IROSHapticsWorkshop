@@ -4,10 +4,44 @@
 
 @charset "utf-8";
 
+/* ==========================================================================
+   Brand tokens
+   Derived from the workshop logo: gold robotic hand, cobalt contact point,
+   cyan haptic ripples. These overrides must come BEFORE the theme imports so
+   minimal-mistakes' `!default` declarations pick them up.
+   ========================================================================== */
+
+$brand-gold: #d99420;
+$brand-gold-light: #f0b944;
+$brand-gold-dark: #a86f11;
+$brand-cobalt: #2b5fc7;
+$brand-cobalt-dark: #1e4494;
+$brand-cyan: #46b6e8;
+$brand-ink: #10141d;
+$brand-ink-soft: #1b2233;
+
+$sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, sans-serif;
+$header-font-family: "Space Grotesk", $sans-serif;
+
+$text-color: #23293a;
+$muted-text-color: #5d6577;
+$border-color: #e3e7ee;
+$primary-color: $brand-cobalt;
+$link-color: $brand-cobalt-dark;
+$link-color-hover: $brand-cobalt;
+$link-color-visited: $brand-cobalt-dark;
+$masthead-link-color: $text-color;
+$masthead-link-color-hover: $brand-cobalt;
+$footer-background-color: #f4f6fa;
+
 @import "minimal-mistakes/skins/default";
 @import "minimal-mistakes";
 
-/* Wider, centered layout on large screens */
+/* ==========================================================================
+   Layout — wider, centered content on large screens
+   ========================================================================== */
+
 @media (min-width: 80em) {
   .masthead__inner-wrap,
   .initial-content,
@@ -32,67 +66,1040 @@
     max-width: 100%;
   }
 }
-/* Organizers page */
+
+/* ==========================================================================
+   Masthead — the submission link doubles as the primary call to action
+   ========================================================================== */
+
+.masthead {
+  border-bottom: 1px solid $border-color;
+}
+
+.greedy-nav a[href*="forms.gle"] {
+  margin: 0.35rem 0;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  background: $brand-gold;
+  color: $brand-ink !important;
+  font-weight: 600;
+
+  &:hover {
+    background: $brand-gold-light;
+    color: $brand-ink !important;
+  }
+
+  &:before {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Shared section furniture
+   ========================================================================== */
+
+.wk-section {
+  margin: 4.5rem 0;
+}
+
+.wk-section__title {
+  font-family: $header-font-family;
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin: 0;
+
+  &:after {
+    content: "";
+    display: block;
+    width: 3rem;
+    height: 3px;
+    margin-top: 0.6rem;
+    border-radius: 999px;
+    background: linear-gradient(90deg, $brand-gold, rgba(217, 148, 32, 0));
+  }
+}
+
+.wk-section__lead {
+  max-width: 62ch;
+  margin: 1.1rem 0 0;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: $muted-text-color;
+}
+
+.wk-more {
+  display: inline-block;
+  margin-top: 1.25rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  border-bottom: none !important;
+
+  &:after {
+    content: " \2192";
+    transition: margin-left 0.18s ease;
+  }
+
+  &:hover:after {
+    margin-left: 0.2rem;
+  }
+}
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+
+.wk-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.6rem;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  transition: transform 0.18s ease, background-color 0.18s ease,
+    box-shadow 0.18s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+.wk-btn--primary {
+  background: $brand-gold;
+  color: $brand-ink !important;
+  box-shadow: 0 8px 24px rgba(217, 148, 32, 0.35);
+
+  &:hover {
+    background: $brand-gold-light;
+    color: $brand-ink !important;
+  }
+}
+
+.wk-btn--ghost {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff !important;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.16);
+    color: #fff !important;
+  }
+}
+
+/* ==========================================================================
+   Hero — the only dark band on the site
+   ========================================================================== */
+
+.wk-hero {
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 1rem;
+  padding: 2.25rem 2.5rem 2.5rem;
+  border-radius: 22px;
+  background: radial-gradient(
+      120% 100% at 88% 12%,
+      rgba(217, 148, 32, 0.28) 0%,
+      rgba(217, 148, 32, 0) 55%
+    ),
+    radial-gradient(
+      90% 80% at 8% 90%,
+      rgba(43, 95, 199, 0.32) 0%,
+      rgba(43, 95, 199, 0) 60%
+    ),
+    linear-gradient(160deg, $brand-ink-soft 0%, $brand-ink 100%);
+  color: #fff;
+}
+
+/* Faint dot grid, echoing the haptic ripples in the logo */
+.wk-hero:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.05) 1px,
+    transparent 1px
+  );
+  background-size: 26px 26px;
+  pointer-events: none;
+}
+
+/* The logo is taken out of flow and pinned to the top-right corner. Only the
+   badge/title/lead reserve space beside it (via padding-right below); the meta
+   row, buttons, and countdown sit below the logo and use the banner's full
+   width — which is what keeps the CTA row on a single line. */
+.wk-hero__inner {
+  position: relative;
+}
+
+.wk-hero__badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 1rem;
+  border: 1px solid rgba(240, 185, 68, 0.45);
+  border-radius: 999px;
+  background: rgba(240, 185, 68, 0.12);
+  color: $brand-gold-light;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.wk-hero__title {
+  font-family: $header-font-family;
+  font-size: clamp(1.9rem, 3.1vw, 2.85rem);
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  margin: 0.9rem 0 0;
+  color: #fff;
+  text-wrap: balance;
+}
+
+/* Reserve a little more room than the logo occupies, so text never touches it. */
+.wk-hero__title,
+.wk-hero__lead {
+  padding-right: clamp(170px, 20vw, 300px);
+}
+
+.wk-hero__title em {
+  display: block;
+  font-style: normal;
+  color: $brand-gold-light;
+}
+
+.wk-hero__lead {
+  margin: 0.9rem 0 0;
+  font-size: 1.06rem;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.wk-hero__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.75rem;
+  margin-top: 1.3rem;
+  font-size: 0.98rem;
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.wk-hero__meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.wk-hero__meta-item svg {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  stroke: $brand-gold-light;
+}
+
+.wk-hero__meta-item a {
+  color: rgba(255, 255, 255, 0.86);
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.wk-hero__cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.85rem;
+  margin-top: 1.6rem;
+}
+
+.wk-hero__art {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: clamp(150px, 18vw, 270px);
+  line-height: 0;
+}
+
+.wk-hero__art img {
+  width: 100%;
+  filter: drop-shadow(0 18px 40px rgba(0, 0, 0, 0.55));
+}
+
+/* Countdown pill — sits inline in the CTA row, after the buttons. */
+.wk-countdown {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-left: 0.4rem;
+  padding: 0.55rem 1.1rem;
+  border: 1px solid rgba(70, 182, 232, 0.4);
+  border-radius: 999px;
+  background: rgba(70, 182, 232, 0.1);
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #cfeaf9;
+}
+
+/* An author-level `display` beats the UA `[hidden]` rule, so restore it —
+   otherwise the empty pill flashes before the script fills it in. */
+.wk-countdown[hidden] {
+  display: none;
+}
+
+.wk-countdown__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: $brand-cyan;
+  animation: wk-pulse 2.2s infinite;
+}
+
+@keyframes wk-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(70, 182, 232, 0.6);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(70, 182, 232, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(70, 182, 232, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wk-countdown__dot {
+    animation: none;
+  }
+
+  .wk-btn:hover,
+  .wk-card:hover,
+  .wk-speaker:hover,
+  .schedule-card:hover {
+    transform: none;
+  }
+}
+
+/* ==========================================================================
+   Card grids (workshop goals)
+   ========================================================================== */
+
+.wk-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.75rem;
+}
+
+.wk-card {
+  padding: 1.6rem 1.5rem;
+  border: 1px solid $border-color;
+  border-radius: 16px;
+  background: #fff;
+  transition: transform 0.18s ease, border-color 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.wk-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(217, 148, 32, 0.55);
+  box-shadow: 0 18px 40px rgba(16, 20, 29, 0.1);
+}
+
+.wk-card__num {
+  font-family: $header-font-family;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: $brand-gold-dark;
+}
+
+.wk-card__title {
+  font-family: $header-font-family;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin: 0.5rem 0;
+}
+
+.wk-card__body {
+  font-size: 0.96rem;
+  line-height: 1.6;
+  color: $muted-text-color;
+  margin: 0;
+}
+
+/* ==========================================================================
+   Speaker strip (home) — full cards live on /speakers/
+   ========================================================================== */
+
+.wk-speakers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.75rem;
+}
+
+.wk-speaker {
+  display: block;
+  text-align: center;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  color: inherit;
+  transition: transform 0.18s ease;
+}
+
+.wk-speaker:hover {
+  transform: translateY(-3px);
+}
+
+.wk-speaker img {
+  width: 148px;
+  height: 148px;
+  margin: 0 auto 0.9rem;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: box-shadow 0.18s ease;
+}
+
+.wk-speaker:hover img {
+  box-shadow: 0 0 0 3px rgba(217, 148, 32, 0.55),
+    0 0 26px rgba(217, 148, 32, 0.25);
+}
+
+.wk-speaker__name {
+  font-family: $header-font-family;
+  font-size: 1.02rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: $text-color;
+}
+
+.wk-speaker__affil {
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
+  line-height: 1.35;
+  color: $muted-text-color;
+}
+
+/* ==========================================================================
+   Program preview (home)
+   ========================================================================== */
+
+.wk-program {
+  margin-top: 1.75rem;
+  border: 1px solid $border-color;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.wk-program__row {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 1.25rem;
+  padding: 1rem 1.4rem;
+  border-bottom: 1px solid $border-color;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.wk-program__time {
+  font-family: $header-font-family;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: $brand-gold-dark;
+}
+
+.wk-program__title {
+  font-weight: 600;
+}
+
+.wk-program__note {
+  margin-top: 0.25rem;
+  font-size: 0.92rem;
+  color: $muted-text-color;
+}
+
+/* ==========================================================================
+   Call-to-action band
+   ========================================================================== */
+
+.wk-band {
+  margin: 4.5rem 0;
+  padding: 2.75rem 2.5rem;
+  border-radius: 20px;
+  background: linear-gradient(150deg, $brand-ink-soft 0%, $brand-ink 100%);
+  color: #fff;
+}
+
+.wk-band__title {
+  font-family: $header-font-family;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0.6rem 0 0;
+  color: #fff;
+}
+
+.wk-band__body {
+  max-width: 58ch;
+  margin: 0.9rem 0 0;
+  font-size: 1.02rem;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.wk-band__dates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.75rem;
+  margin: 1.75rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.wk-band__dates li {
+  margin: 0;
+}
+
+.wk-band__date-label {
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.wk-band__date-value {
+  margin-top: 0.2rem;
+  font-family: $header-font-family;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: $brand-gold-light;
+}
+
+/* ==========================================================================
+   Mailing list signup
+   ========================================================================== */
+
+.wk-signup {
+  margin: 4.5rem 0;
+  padding: 2.25rem;
+  border: 1px solid $border-color;
+  border-radius: 18px;
+  background: #f8fafc;
+  text-align: center;
+}
+
+.wk-signup__title {
+  font-family: $header-font-family;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.wk-signup__blurb {
+  margin: 0.4rem 0 1.4rem;
+  color: $muted-text-color;
+}
+
+.wk-signup__form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.wk-signup__form input[type="email"] {
+  width: auto;
+  min-width: 280px;
+  margin: 0;
+  padding: 0.75rem 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  font-size: 1rem;
+}
+
+.wk-signup__form button {
+  padding: 0.75rem 1.75rem;
+  border: none;
+  border-radius: 999px;
+  background: $brand-cobalt;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.18s ease;
+
+  &:hover {
+    background: $brand-cobalt-dark;
+  }
+}
+
+/* ==========================================================================
+   Supporter / institution logos
+   ========================================================================== */
+
+.wk-logos-section {
+  margin-top: 4rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid $border-color;
+  text-align: center;
+}
+
+.wk-logos__title {
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: $muted-text-color;
+  margin-bottom: 1.5rem;
+}
+
+.wk-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.wk-logos a {
+  border-bottom: none !important;
+  opacity: 0.85;
+  transition: opacity 0.18s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.wk-logos--sponsors img {
+  height: 96px;
+  max-width: 240px;
+  object-fit: contain;
+}
+
+.wk-logos--institutions img {
+  height: 60px;
+  max-width: 170px;
+  object-fit: contain;
+}
+
+/* ==========================================================================
+   Speakers page
+   ========================================================================== */
+
+.speakers-list {
+  margin-top: 2rem;
+}
+
+.speaker-card {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 2rem;
+  align-items: start;
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid $border-color;
+}
+
+.speaker-image-link {
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: none !important;
+}
+
+.speaker-card img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  display: block;
+  transition: box-shadow 0.18s ease;
+}
+
+.speaker-image-link:hover img {
+  box-shadow: 0 0 0 3px rgba(217, 148, 32, 0.55),
+    0 0 26px rgba(217, 148, 32, 0.25);
+}
+
+.speaker-name {
+  font-family: $header-font-family;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 0.25rem;
+}
+
+.speaker-position {
+  font-size: 1rem;
+  line-height: 1.35;
+  margin-bottom: 0.15rem;
+}
+
+.speaker-institution {
+  font-size: 0.98rem;
+  line-height: 1.35;
+  color: $muted-text-color;
+  margin-bottom: 0.6rem;
+}
+
+.speaker-title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0.75rem;
+  padding-left: 0.85rem;
+  border-left: 3px solid $brand-gold;
+}
+
+.speaker-abstract {
+  font-size: 0.96rem;
+  line-height: 1.7;
+  color: #3b4252;
+}
+
+/* ==========================================================================
+   Organizers page
+   ========================================================================== */
+
 .organizers-grid {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  justify-content: center !important;
-  gap: 2.5rem 2rem !important;
-  margin-top: 2rem !important;
-  text-align: center !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem 2rem;
+  margin-top: 2rem;
+  text-align: center;
 }
 
 .organizer-card {
-  flex: 0 0 260px !important;
-  max-width: 260px !important;
-  width: 260px !important;
-  margin: 0 auto !important;
+  flex: 0 0 240px;
+  max-width: 240px;
 }
 
 .organizer-image-link {
-  display: inline-block !important;
-  text-decoration: none !important;
+  display: inline-block;
+  text-decoration: none;
   border-bottom: none !important;
 }
 
 .organizer-card img {
-  width: 150px !important;
-  height: 150px !important;
-  object-fit: cover !important;
-  object-position: center !important;
-  border-radius: 50% !important;
-  display: block !important;
-  margin: 0 auto 1rem auto !important;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1rem auto;
+  transition: box-shadow 0.18s ease;
+}
+
+.organizer-image-link:hover img {
+  box-shadow: 0 0 0 3px rgba(217, 148, 32, 0.55),
+    0 0 26px rgba(217, 148, 32, 0.25);
 }
 
 .organizer-name {
-  font-size: 1.08rem !important;
-  font-weight: 700 !important;
-  line-height: 1.3 !important;
-  margin-bottom: 0.2rem !important;
+  font-family: $header-font-family;
+  font-size: 1.08rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 0.2rem;
 }
 
 .organizer-position {
-  font-size: 0.96rem !important;
-  line-height: 1.35 !important;
-  margin-bottom: 0.15rem !important;
+  font-size: 0.96rem;
+  line-height: 1.35;
+  margin-bottom: 0.15rem;
 }
 
 .organizer-affiliation {
-  font-size: 0.94rem !important;
-  line-height: 1.35 !important;
-  color: #666 !important;
+  font-size: 0.94rem;
+  line-height: 1.35;
+  color: $muted-text-color;
 }
 
-@media screen and (max-width: 700px) {
-  .organizers-grid {
-    flex-direction: column !important;
-    align-items: center !important;
+/* ==========================================================================
+   Program page
+   ========================================================================== */
+
+.schedule-wrapper {
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+.schedule-session {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid $border-color;
+}
+
+.schedule-session h3 {
+  font-family: $header-font-family;
+  margin-bottom: 0.3rem;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.schedule-item {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 1rem;
+}
+
+.schedule-time {
+  font-family: $header-font-family;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  padding-top: 0.75rem;
+  color: $muted-text-color;
+}
+
+.schedule-card {
+  background: #fff;
+  border: 1px solid $border-color;
+  border-left: 5px solid $brand-cobalt;
+  border-radius: 12px;
+  padding: 0.95rem 1.15rem;
+  box-shadow: 0 2px 10px rgba(16, 20, 29, 0.06);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.schedule-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(16, 20, 29, 0.1);
+}
+
+.schedule-card h4 {
+  font-family: $header-font-family;
+  margin: 0 0 0.2rem 0;
+}
+
+.schedule-card p {
+  margin: 0;
+}
+
+.keynote {
+  border-left-color: $brand-gold;
+}
+
+.break {
+  border-left-color: #d95f02;
+  background: #fff8f1;
+}
+
+.panel {
+  border-left-color: #1b9e77;
+}
+
+.poster {
+  border-left-color: #7b3294;
+}
+
+.opening,
+.closing {
+  border-left-color: #64748b;
+  background: #f7f8fb;
+}
+
+.schedule-note {
+  margin-top: 1.75rem;
+  font-size: 0.95rem;
+  color: $muted-text-color;
+  text-align: center;
+  font-style: italic;
+}
+
+/* ==========================================================================
+   Call for Posters page
+   ========================================================================== */
+
+.call-section {
+  margin-bottom: 2.5rem;
+}
+
+.call-intro p {
+  margin-bottom: 1rem;
+}
+
+.topics-box,
+.submission-box,
+.dates-box {
+  background: #f8fafc;
+  border: 1px solid $border-color;
+  padding: 1.4rem 1.6rem;
+  border-radius: 14px;
+  margin-top: 0.8rem;
+}
+
+.topics-box ul,
+.submission-box ul {
+  margin: 0.5rem 0 0 1.2rem;
+}
+
+.topics-box li,
+.submission-box li {
+  margin-bottom: 0.45rem;
+}
+
+.dates-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dates-table td {
+  padding: 0.7rem 0;
+  border-bottom: 1px solid $border-color;
+}
+
+.dates-table tr:last-child td {
+  border-bottom: none;
+}
+
+.dates-table td:first-child {
+  font-weight: 600;
+  width: 55%;
+}
+
+.poster-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin-right: 0.7rem;
+  margin-top: 0.4rem;
+  background: $brand-gold;
+  color: $brand-ink !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  border-radius: 999px;
+  font-weight: 600;
+  transition: background-color 0.18s ease, transform 0.18s ease;
+}
+
+.poster-button:hover {
+  background: $brand-gold-light;
+  transform: translateY(-2px);
+}
+
+.section-title {
+  font-family: $header-font-family;
+  margin-bottom: 0.6rem;
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+@media (max-width: 700px) {
+  /* Too narrow for the corner layout — return the logo to the flow, above the
+     copy (it comes first in the DOM), and reclaim the reserved gutter. */
+  .wk-hero__art {
+    position: static;
+    width: 170px;
+    margin: 0 auto 1.25rem;
   }
 
-  .organizer-card {
-    width: 100% !important;
-    max-width: 260px !important;
-    flex: 0 0 auto !important;
+  .wk-hero__title,
+  .wk-hero__lead {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .wk-hero {
+    padding: 2rem 1.5rem;
+    border-radius: 16px;
+  }
+
+  .wk-hero__title {
+    font-size: 2rem;
+  }
+
+  .wk-section {
+    margin: 3rem 0;
+  }
+
+  .wk-section__title {
+    font-size: 1.6rem;
+  }
+
+  .wk-band {
+    padding: 2rem 1.5rem;
+  }
+
+  .wk-program__row {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+  }
+
+  .schedule-item {
+    grid-template-columns: 1fr;
+  }
+
+  .schedule-time {
+    text-align: left;
+    padding-top: 0;
+  }
+
+  .speaker-card {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .speaker-card img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+  }
+
+  .wk-logos {
+    gap: 1.75rem;
+  }
+
+  .wk-logos--sponsors img {
+    height: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wk-hero__cta .wk-btn {
+    width: 100%;
+  }
+
+  /* Buttons go full-width and stack, so the pill drops to its own row. */
+  .wk-countdown {
+    margin-left: 0;
+  }
+
+  .wk-signup__form input[type="email"] {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .wk-signup__form button {
+    width: 100%;
   }
 }

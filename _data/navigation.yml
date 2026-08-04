@@ -1,11 +1,16 @@
 main:
   - title: "Home"
     url: /
+  - title: "About"
+    url: /about/
   - title: "Speakers"
     url: /speakers/
-  - title: "Schedule"
+  - title: "Program"
     url: /schedule/
   - title: "Call for Posters"
     url: /call-for-posters/
   - title: "Organizers"
     url: /organizers/
+  # Rendered as a gold pill in the masthead — see the `forms.gle` rule in main.scss.
+  - title: "Submit a Poster"
+    url: https://forms.gle/Q7MBrFvgHpfcPXWJA
