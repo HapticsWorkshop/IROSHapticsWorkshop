@@ -229,7 +229,7 @@ excerpt: "A half-day IROS 2026 workshop on integrating tactile sensing, haptic i
   <ul class="wk-band__dates">
     <li>
       <div class="wk-band__date-label">Submission deadline</div>
-      <div class="wk-band__date-value">August 25, 2026</div>
+      <div class="wk-band__date-value">August 28, 2026 (AoE)</div>
     </li>
     <li>
       <div class="wk-band__date-label">Notification</div>
@@ -315,7 +315,7 @@ excerpt: "A half-day IROS 2026 workshop on integrating tactile sensing, haptic i
 // Live countdown in the hero. Falls through three states so the pill stays
 // accurate without anyone editing it: submissions open -> workshop upcoming -> past.
 (function () {
-  var POSTER_DEADLINE = new Date("2026-08-25T23:59:59-12:00"); // anywhere on Earth
+  var POSTER_DEADLINE = new Date("2026-08-28T23:59:59-12:00"); // anywhere on Earth
   var WORKSHOP_START = new Date("2026-10-01T08:00:00-04:00");  // Pittsburgh, EDT
 
   var pill = document.getElementById("wk-countdown");
