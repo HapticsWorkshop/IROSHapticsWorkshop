@@ -60,7 +60,7 @@ excerpt: "Full program for the IROS 2026 workshop on enhancing dexterous manipul
 <div class="schedule-time">10:05 – 10:30</div>
 <div class="schedule-card keynote">
 <h4>Keynote 5 — "High Resolution Haptics for Teleoperation"</h4>
-<p><strong>Speaker:</strong> Joe Mullenbach - Fluid Reality</p>
+<p><strong>Speaker:</strong> Craig Shultz - Fluid Reality</p>
 </div>
 </div>
 

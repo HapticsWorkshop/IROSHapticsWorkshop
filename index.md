@@ -151,8 +151,8 @@ excerpt: "A half-day IROS 2026 workshop on integrating tactile sensing, haptic i
     </a>
 
     <a class="wk-speaker" href="{{ '/speakers/' | relative_url }}">
-      <img src="{{ '/assets/images/speakers/joe.jpeg' | relative_url }}" alt="Joe Mullenbach">
-      <div class="wk-speaker__name">Joe Mullenbach</div>
+      <img src="{{ '/assets/images/speakers/headshot_craig.png' | relative_url }}" alt="Craig Shultz">
+      <div class="wk-speaker__name">Craig Shultz</div>
       <div class="wk-speaker__affil">Fluid Reality</div>
     </a>
   </div>

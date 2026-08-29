@@ -2,7 +2,7 @@
 title: "Speakers"
 layout: single
 permalink: /speakers/
-excerpt: "Invited speakers for the IROS 2026 workshop on haptics and dexterous manipulation: Allison Okamura, Nathan Lepora, Roberta Klatzky, Rebecca Friesen, and Joe Mullenbach."
+excerpt: "Invited speakers for the IROS 2026 workshop on haptics and dexterous manipulation: Allison Okamura, Nathan Lepora, Roberta Klatzky, Rebecca Friesen, and Craig Shultz."
 ---
 
 ## Invited Speakers
@@ -42,13 +42,13 @@ excerpt: "Invited speakers for the IROS 2026 workshop on haptics and dexterous m
   </div>
 
   <div class="speaker-card">
-    <a class="speaker-image-link" href="https://www.linkedin.com/in/jmullenbach/" target="_blank" rel="noopener noreferrer">
-      <img src="{{ '/assets/images/speakers/joe.jpeg' | relative_url }}" alt="Joe Mullenbach">
+    <a class="speaker-image-link" href="https://fluidreality.com/" target="_blank" rel="noopener noreferrer">
+      <img src="{{ '/assets/images/speakers/headshot_craig.png' | relative_url }}" alt="Craig Shultz">
     </a>
 
     <div>
-      <div class="speaker-name">Joe Mullenbach</div>
-      <div class="speaker-position">Co-founder</div>
+      <div class="speaker-name">Craig Shultz</div>
+      <div class="speaker-position">Co-Founder and CTO</div>
       <div class="speaker-institution">Fluid Reality</div>
       <div class="speaker-title">High Resolution Haptics for Teleoperation</div>
       <div class="speaker-abstract">
