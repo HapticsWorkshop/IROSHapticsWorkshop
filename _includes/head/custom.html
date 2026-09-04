@@ -1,5 +1,12 @@
 <!-- minimal-mistakes includes this file inside <head> on every page. -->
 
+{%- if page.redirect_to %}
+<!-- Retired URL: bounce straight to its replacement (set `redirect_to` in the
+     page's front matter). No plugin needed, so it works on GitHub Pages. -->
+<meta http-equiv="refresh" content="0; url={{ page.redirect_to | relative_url }}">
+<meta name="robots" content="noindex">
+{%- endif %}
+
 <!-- Favicons (workshop logo). -->
 <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicons/favicon-32x32.png' | relative_url }}">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicons/favicon-16x16.png' | relative_url }}">

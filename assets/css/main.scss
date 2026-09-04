@@ -68,29 +68,11 @@ $footer-background-color: #f4f6fa;
 }
 
 /* ==========================================================================
-   Masthead — the submission link doubles as the primary call to action
+   Masthead
    ========================================================================== */
 
 .masthead {
   border-bottom: 1px solid $border-color;
-}
-
-.greedy-nav a[href*="forms.gle"] {
-  margin: 0.35rem 0;
-  padding: 0.45rem 1rem;
-  border-radius: 999px;
-  background: $brand-gold;
-  color: $brand-ink !important;
-  font-weight: 600;
-
-  &:hover {
-    background: $brand-gold-light;
-    color: $brand-ink !important;
-  }
-
-  &:before {
-    display: none;
-  }
 }
 
 /* ==========================================================================
@@ -1028,6 +1010,220 @@ $footer-background-color: #f4f6fa;
 .section-title {
   font-family: $header-font-family;
   margin-bottom: 0.6rem;
+}
+
+/* ==========================================================================
+   Accepted posters — list page (_pages/accepted-posters.html)
+   ========================================================================== */
+
+.wk-posters__lead {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: $muted-text-color;
+  margin: 0 0 2.5rem;
+}
+
+.wk-posters {
+  margin: 0 0 3rem;
+}
+
+.wk-posters__title {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-family: $header-font-family;
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0 0 0.4rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid $brand-gold;
+}
+
+.wk-posters__letter {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 10px;
+  background: $brand-ink;
+  color: $brand-gold-light;
+  font-size: 1rem;
+}
+
+.wk-posters__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.wk-poster-row {
+  display: grid;
+  grid-template-columns: 3.5rem 1fr auto;
+  gap: 0.3rem 1rem;
+  align-items: baseline;
+  margin: 0;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid $border-color;
+}
+
+.wk-poster-row__id {
+  font-family: $header-font-family;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: $brand-gold-dark;
+  font-variant-numeric: tabular-nums;
+}
+
+.wk-poster-row__title {
+  font-weight: 600;
+  line-height: 1.4;
+  color: $text-color;
+  text-decoration: none;
+  border-bottom: none;
+
+  &:hover {
+    color: $brand-cobalt;
+    text-decoration: underline;
+  }
+}
+
+.wk-poster-row__authors {
+  font-size: 0.92rem;
+  color: $muted-text-color;
+  white-space: nowrap;
+}
+
+/* ==========================================================================
+   Accepted posters — poster page (_layouts/poster.html)
+   ========================================================================== */
+
+/* The layout renders its own title so the ID row can precede it. */
+.layout--poster #page-title {
+  display: none;
+}
+
+.wk-poster__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem 1rem;
+  margin: 0 0 0.9rem;
+}
+
+/* Same typeface as the poster titles on the list page, at heading size. */
+.wk-poster__title {
+  font-family: $sans-serif;
+  font-size: 1.85rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  margin: 0 0 1rem;
+}
+
+.wk-poster__id {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  background: $brand-ink;
+  color: $brand-gold-light;
+  font-family: $header-font-family;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.wk-poster__session {
+  font-size: 0.92rem;
+  color: $muted-text-color;
+}
+
+.wk-poster__authors {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin: 0 0 0.35rem;
+
+  sup {
+    margin-left: 0.1em;
+    font-size: 0.68em;
+    color: $brand-cobalt;
+  }
+}
+
+.wk-poster__affiliations {
+  list-style: none;
+  margin: 0 0 1.75rem;
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: $muted-text-color;
+
+  li {
+    margin: 0;
+  }
+
+  sup {
+    font-size: 0.75em;
+    color: $brand-cobalt;
+  }
+}
+
+.wk-poster__figure {
+  margin: 0 0 2.25rem;
+  text-align: center;
+
+  a {
+    border-bottom: none;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 85vh;
+    width: auto;
+    height: auto;
+    border: 1px solid $border-color;
+    border-radius: 14px;
+    background: #fff;
+  }
+}
+
+.wk-poster__abstract {
+  h2 {
+    font-family: $header-font-family;
+    font-size: 1.35rem;
+    margin: 0 0 0.75rem;
+  }
+
+  p {
+    line-height: 1.7;
+  }
+}
+
+.wk-poster__back {
+  margin-top: 2.5rem;
+  font-weight: 600;
+}
+
+/* The theme appends an "Updated: <build date>" line to collection documents;
+   it is meaningless for posters. */
+.layout--poster .page__meta {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .wk-poster-row {
+    grid-template-columns: 3.5rem 1fr;
+  }
+
+  .wk-poster-row__authors {
+    grid-column: 2;
+    white-space: normal;
+  }
 }
 
 /* ==========================================================================

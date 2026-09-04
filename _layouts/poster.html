@@ -1,0 +1,71 @@
+---
+layout: single
+---
+{%- comment -%}
+Page for one accepted poster (a document in _posters/). Wraps the theme's
+`single` layout. The theme's own page heading is hidden for this layout
+(see .layout--poster #page-title in main.scss) so the poster ID can sit above
+the title; this file renders the ID/section row, the title, authors with
+affiliation markers, the graphical summary, and the abstract (the document body).
+{%- endcomment -%}
+{%- assign sec = site.data.poster_sections | where: "key", page.section | first -%}
+
+{%- comment -%} Unique affiliations, in order of first appearance. {%- endcomment -%}
+{%- assign affs = "" | split: "" -%}
+{%- for a in page.authors -%}
+  {%- for aff in a.affiliations -%}
+    {%- unless affs contains aff -%}
+      {%- assign affs = affs | push: aff -%}
+    {%- endunless -%}
+  {%- endfor -%}
+{%- endfor -%}
+
+<div class="wk-poster">
+  <p class="wk-poster__meta">
+    <span class="wk-poster__id">Poster {{ page.poster_id }}</span>
+    <span class="wk-poster__session">Section {{ page.section }} &middot; {{ sec.title }}</span>
+  </p>
+
+  <h1 class="wk-poster__title">{{ page.title | escape }}</h1>
+
+  <p class="wk-poster__authors">
+    {%- for a in page.authors -%}
+      {%- assign marks = "" | split: "" -%}
+      {%- for aff in a.affiliations -%}
+        {%- for u in affs -%}
+          {%- if u == aff -%}
+            {%- assign marks = marks | push: forloop.index -%}
+            {%- break -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endfor -%}
+      <span class="wk-poster__author">{{ a.name }}{% if affs.size > 1 and marks.size > 0 %}<sup>{{ marks | join: "," }}</sup>{% endif %}</span>
+      {%- unless forloop.last %}, {% endunless -%}
+    {%- endfor -%}
+  </p>
+
+  {%- if affs.size > 0 %}
+  <ul class="wk-poster__affiliations">
+    {%- for u in affs %}
+    <li>{% if affs.size > 1 %}<sup>{{ forloop.index }}</sup> {% endif %}{{ u }}</li>
+    {%- endfor %}
+  </ul>
+  {%- endif %}
+
+  {%- if page.summary_image %}
+  <figure class="wk-poster__figure">
+    <a href="{{ page.summary_image | relative_url }}" target="_blank" rel="noopener noreferrer">
+      <img src="{{ page.summary_image | relative_url }}" alt="Graphical summary for the poster “{{ page.title | escape }}”">
+    </a>
+  </figure>
+  {%- endif %}
+
+  <div class="wk-poster__abstract">
+    <h2>Abstract</h2>
+    {{ content }}
+  </div>
+
+  <p class="wk-poster__back">
+    <a href="{{ '/accepted-posters/' | relative_url }}#session-{{ page.section | downcase }}">&larr; All accepted posters</a>
+  </p>
+</div>

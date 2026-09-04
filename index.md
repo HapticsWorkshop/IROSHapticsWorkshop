@@ -46,7 +46,7 @@ excerpt: "A half-day IROS 2026 workshop on integrating tactile sensing, haptic i
       </div>
 
       <div class="wk-hero__cta">
-        <a class="wk-btn wk-btn--primary" href="{{ '/call-for-posters/' | relative_url }}">Submit a Poster</a>
+        <a class="wk-btn wk-btn--primary" href="{{ '/accepted-posters/' | relative_url }}">Accepted Posters</a>
         <a class="wk-btn wk-btn--ghost" href="{{ '/schedule/' | relative_url }}">View the Program</a>
 
         <div class="wk-countdown" id="wk-countdown" hidden>
@@ -210,41 +210,6 @@ excerpt: "A half-day IROS 2026 workshop on integrating tactile sensing, haptic i
   </div>
 
   <a class="wk-more" href="{{ '/schedule/' | relative_url }}">Full program with talk titles</a>
-</section>
-
-<section class="wk-band">
-  <!-- Revert to "Call for Posters · Open" once the extension is old news. -->
-  <span class="wk-hero__badge">Call for Posters &middot; Deadline Extended</span>
-
-  <h2 class="wk-band__title">Present your work at the poster session</h2>
-
-  <p class="wk-band__body">
-    We invite poster abstracts on haptic feedback for manipulation, tactile
-    sensing and perception, dexterous control, teleoperation, wearable haptics,
-    and related topics. Submissions are a 300-word abstract plus a graphical
-    summary &mdash; the graphical summaries are featured in the digital poster
-    booklet handed to every participant.
-  </p>
-
-  <ul class="wk-band__dates">
-    <li>
-      <div class="wk-band__date-label">Submission deadline</div>
-      <div class="wk-band__date-value">August 28, 2026 (AoE)</div>
-    </li>
-    <li>
-      <div class="wk-band__date-label">Notification</div>
-      <div class="wk-band__date-value">September 1, 2026</div>
-    </li>
-    <li>
-      <div class="wk-band__date-label">Workshop</div>
-      <div class="wk-band__date-value">October 1, 2026</div>
-    </li>
-  </ul>
-
-  <div class="wk-hero__cta">
-    <a class="wk-btn wk-btn--primary" href="https://forms.gle/Q7MBrFvgHpfcPXWJA" target="_blank" rel="noopener noreferrer">Submit your abstract</a>
-    <a class="wk-btn wk-btn--ghost" href="{{ '/call-for-posters/' | relative_url }}">Read the full call</a>
-  </div>
 </section>
 
 <section class="wk-section">

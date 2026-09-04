@@ -23,6 +23,10 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  # One document per accepted poster (_posters/*.md); listed on /accepted-posters/.
+  posters:
+    output: true
+    permalink: /accepted-posters/:name/
 
 defaults:
   - scope:
@@ -31,6 +35,28 @@ defaults:
     values:
       layout: single
       author_profile: false
+  - scope:
+      path: ""
+      type: posters
+    values:
+      layout: poster
+      author_profile: false
+
+# Private submission data lives next to the site but must never be published.
+# GitHub Pages runs Jekyll 3.x, where this list *replaces* the built-in
+# defaults, so those are repeated here.
+exclude:
+  - ignore
+  - assets/abstracts
+  - assets/Formresponses
+  - assets/graphical-summaries
+  - "assets/Accepted Posters - Sheet1.csv"
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - .sass-cache
+  - .jekyll-cache
 
 sass:
   style: compressed

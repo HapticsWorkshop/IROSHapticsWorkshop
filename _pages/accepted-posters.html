@@ -1,0 +1,38 @@
+---
+title: "Accepted Posters"
+layout: single
+permalink: /accepted-posters/
+excerpt: "Posters accepted to the IROS 2026 workshop on haptics and dexterous manipulation, grouped by session, with abstracts and graphical summaries."
+---
+{%- comment -%}
+Lists every document in _posters/ under its session (see _data/poster_sections.yml).
+This file is .html rather than .md so kramdown does not reflow the Liquid loops.
+{%- endcomment -%}
+
+<p class="wk-posters__lead">
+  The {{ site.posters | size }} posters below will be presented during the
+  poster session and networking period, 11:40 AM &ndash; 12:15 PM on Thursday,
+  October 1, 2026. Select a title to read the abstract and see the graphical
+  summary. 
+  <!-- The graphical summaries are also collected in the digital poster booklet distributed to workshop participants. -->
+</p>
+
+{% for sec in site.data.poster_sections %}
+{%- assign posters = site.posters | where: "section", sec.key | sort: "poster_id" -%}
+<section class="wk-posters" id="session-{{ sec.key | downcase }}">
+  <h2 class="wk-posters__title">
+    <span class="wk-posters__letter" aria-hidden="true">{{ sec.key }}</span>
+    <span>Section {{ sec.key }} &middot; {{ sec.title }}</span>
+  </h2>
+
+  <ol class="wk-posters__list">
+    {%- for p in posters %}
+    <li class="wk-poster-row">
+      <span class="wk-poster-row__id">{{ p.poster_id }}</span>
+      <a class="wk-poster-row__title" href="{{ p.url | relative_url }}">{{ p.title | escape }}</a>
+      <span class="wk-poster-row__authors">{{ p.authors[0].family }}{% if p.authors.size > 1 %} et al.{% endif %}</span>
+    </li>
+    {%- endfor %}
+  </ol>
+</section>
+{% endfor %}

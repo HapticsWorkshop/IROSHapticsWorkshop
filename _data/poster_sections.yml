@@ -1,0 +1,8 @@
+# Poster session groupings. `key` matches the `section` front-matter field of
+# each document in _posters/ and the letter prefix of its poster ID.
+- key: "A"
+  title: "Haptic Interfaces, Actuation and Rendering"
+- key: "B"
+  title: "Tactile Sensing and Perception"
+- key: "C"
+  title: "Dexterous Manipulation and Controls"

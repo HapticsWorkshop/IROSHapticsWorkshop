@@ -6,3 +6,11 @@ _site/
 
 # Local scratch / private exports (e.g. mailing-list data)
 ignore/
+
+# Poster submission data (contains submitter emails) and the raw graphical
+# summary download (66 MB). The published copies live in _posters/ and
+# assets/images/posters/.
+assets/abstracts/
+assets/Accepted Posters - Sheet1.csv
+assets/Formresponses/
+assets/graphical-summaries/
