@@ -32,7 +32,7 @@ The workshop is a half-day (4.5 hour) morning session built around five invited 
 |---|---|
 | **Conference** | [IROS 2026](https://2026.ieee-iros.org/), September 27 – October 1, 2026 |
 | **Workshop date** | Thursday, October 1, 2026, 8:00 AM – 12:30 PM |
-| **Location** | [David L. Lawrence Convention Center](https://www.pittsburghcc.com/), Pittsburgh, PA, United States |
+| **Location** | Rooms 403 and 404, [David L. Lawrence Convention Center](https://www.pittsburghcc.com/), Pittsburgh, PA, United States |
 | **Registration** | Open to all registered IROS 2026 participants; no separate workshop registration is required |
 | **Posters** | 22 accepted posters presented during the poster session ([see the list]({{ '/accepted-posters/' | relative_url }})) |
 

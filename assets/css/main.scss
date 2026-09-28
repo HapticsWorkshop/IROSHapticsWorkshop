@@ -823,6 +823,12 @@ $footer-background-color: #f4f6fa;
    Program page
    ========================================================================== */
 
+.schedule-venue {
+  margin: 0 0 1.5rem;
+  font-size: 1.02rem;
+  color: $muted-text-color;
+}
+
 .schedule-wrapper {
   max-width: 1000px;
   margin: 2rem auto;

@@ -5,6 +5,8 @@ permalink: /schedule/
 excerpt: "Full program for the IROS 2026 workshop on enhancing dexterous manipulation through haptic feedback — five invited keynotes, a round table, and a poster session."
 ---
 
+<p class="schedule-venue">Thursday, October 1, 2026 &middot; Rooms 403 and 404, <a href="https://www.pittsburghcc.com/" target="_blank" rel="noopener noreferrer">David L. Lawrence Convention Center</a>, Pittsburgh, PA</p>
+
 <div class="schedule-wrapper">
 
 <div class="schedule">
@@ -90,7 +92,6 @@ excerpt: "Full program for the IROS 2026 workshop on enhancing dexterous manipul
 <div class="schedule-time">11:40 – 12:15</div>
 <div class="schedule-card poster">
 <h4>Poster Session and Networking</h4>
-<p><strong>Location:</strong> Rooms 403 and 404</p>
 </div>
 </div>
 

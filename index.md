@@ -41,7 +41,7 @@ excerpt: "A half-day IROS 2026 workshop on integrating tactile sensing, haptic i
         </span>
         <span class="wk-hero__meta-item">
           <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          <a href="https://www.pittsburghcc.com/" target="_blank" rel="noopener noreferrer">David L. Lawrence Convention Center</a>, Pittsburgh, PA
+          <a href="https://www.pittsburghcc.com/" target="_blank" rel="noopener noreferrer">David L. Lawrence Convention Center</a>, Rooms 403 and 404 &middot; Pittsburgh, PA
         </span>
       </div>
 
@@ -198,7 +198,6 @@ excerpt: "A half-day IROS 2026 workshop on integrating tactile sensing, haptic i
       <div class="wk-program__time">11:40 &ndash; 12:15</div>
       <div>
         <div class="wk-program__title">Poster session and networking</div>
-        <div class="wk-program__note">Rooms 403 and 404</div>
       </div>
     </div>
 
