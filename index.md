@@ -198,6 +198,7 @@ excerpt: "A half-day IROS 2026 workshop on integrating tactile sensing, haptic i
       <div class="wk-program__time">11:40 &ndash; 12:15</div>
       <div>
         <div class="wk-program__title">Poster session and networking</div>
+        <div class="wk-program__note">Rooms 403 and 404</div>
       </div>
     </div>
 
