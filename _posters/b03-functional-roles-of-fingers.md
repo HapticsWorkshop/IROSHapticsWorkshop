@@ -2,6 +2,7 @@
 title: "Investigating the Functional Roles of Fingers Involved in a Dexterous Manipulation Task"
 poster_id: "B03"
 section: "B"
+poster_pdf: /assets/posters/b03-zid.pdf
 summary_image: /assets/images/posters/b03-zid.jpg
 excerpt: "Everyday tasks like opening a jar or turning a doorknob demand precise coordination between digits, yet it remains unclear whether individual fingers adopt distinct, consistent…"
 authors:

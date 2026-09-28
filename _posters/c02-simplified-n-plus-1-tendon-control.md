@@ -2,6 +2,7 @@
 title: "Simplified N+1 Tendon Control with Rolling-Contact Joints"
 poster_id: "C02"
 section: "C"
+poster_pdf: /assets/posters/c02-dills.pdf
 summary_image: /assets/images/posters/c02-dills.jpg
 excerpt: "Kinesthetic haptic feedback, bilateral teleoperation, and highly dexterous robotic manipulation depend on force control. In force control, remotely locating actuators away from a…"
 authors:

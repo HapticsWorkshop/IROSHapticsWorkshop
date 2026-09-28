@@ -2,6 +2,7 @@
 title: "Cellular mechanosensation controlling real-time robot decisions"
 poster_id: "B02"
 section: "B"
+poster_pdf: /assets/posters/b02-zimmerer.pdf
 summary_image: /assets/images/posters/b02-zimmerer.jpg
 excerpt: "Living systems convert mechanical cues into decisions with speed and sensitivity that remain difficult to reproduce in robots. Here we report a biohybrid mechanosensor that uses…"
 authors:

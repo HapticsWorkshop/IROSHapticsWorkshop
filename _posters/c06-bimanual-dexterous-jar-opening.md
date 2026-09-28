@@ -2,6 +2,7 @@
 title: "Learning Bimanual Dexterous Jar Opening with Finger Gaiting"
 poster_id: "C06"
 section: "C"
+poster_pdf: /assets/posters/c06-xu.pdf
 summary_image: /assets/images/posters/c06-xu.jpg
 excerpt: "This paper presents a bimanual dexterous system that learns contact-rich jar opening through reinforcement learning without human demonstrations. Starting from pre-grasp…"
 authors:

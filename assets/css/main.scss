@@ -1061,7 +1061,7 @@ $footer-background-color: #f4f6fa;
 
 .wk-poster-row {
   display: grid;
-  grid-template-columns: 3.5rem 1fr auto;
+  grid-template-columns: 3.5rem 1fr auto auto;
   gap: 0.3rem 1rem;
   align-items: baseline;
   margin: 0;
@@ -1173,6 +1173,32 @@ $footer-background-color: #f4f6fa;
   }
 }
 
+.wk-poster-row__pdf {
+  padding: 0.15rem 0.6rem;
+  border: 1px solid $brand-gold;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: $brand-gold-dark;
+  text-decoration: none;
+
+  &:hover {
+    background: $brand-gold;
+    color: $brand-ink;
+    text-decoration: none;
+  }
+}
+
+.wk-poster__download {
+  margin: 0 0 1.75rem;
+
+  .wk-btn {
+    font-size: 0.95rem;
+    padding: 0.7rem 1.4rem;
+  }
+}
+
 .wk-poster__figure {
   margin: 0 0 2.25rem;
   text-align: center;
@@ -1223,6 +1249,11 @@ $footer-background-color: #f4f6fa;
   .wk-poster-row__authors {
     grid-column: 2;
     white-space: normal;
+  }
+
+  .wk-poster-row__pdf {
+    grid-column: 2;
+    justify-self: start;
   }
 }
 

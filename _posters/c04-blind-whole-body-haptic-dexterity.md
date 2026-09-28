@@ -2,6 +2,7 @@
 title: "Blind Whole-Body Haptic Dexterity Without Tactile Sensors"
 poster_id: "C04"
 section: "C"
+poster_pdf: /assets/posters/c04-bhatt.pdf
 summary_image: /assets/images/posters/c04-bhatt.jpg
 excerpt: "Robotic haptic perception is usually framed as a hardware problem: add tactile or force/torque sensors to make contact observable. Across Blind Dexterity and The Blind…"
 authors:

@@ -2,6 +2,7 @@
 title: "Multi-Modal Demonstrations for Dexterous Manipulation"
 poster_id: "C05"
 section: "C"
+poster_pdf: /assets/posters/c05-tamura.pdf
 summary_image: /assets/images/posters/c05-tamura.jpg
 excerpt: "Collecting demonstrations for long-horizon, contact-rich manipulation remains a major bottleneck in robot learning. Teleoperation scales to long-horizon tasks but is imprecise for…"
 authors:

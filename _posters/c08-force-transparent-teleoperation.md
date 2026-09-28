@@ -2,6 +2,7 @@
 title: "Bringing Human Touch to Robot Hands: A Force-Transparent Teleoperation System for Bilateral Control"
 poster_id: "C08"
 section: "C"
+poster_pdf: /assets/posters/c08-sterling-angus.pdf
 summary_image: /assets/images/posters/c08-sterling-angus.jpg
 excerpt: "Dexterous teleoperation leverages a human operator’s natural dexterity to control contact-rich robotic interactions and collect demonstration data for robot learning. Operator…"
 authors:

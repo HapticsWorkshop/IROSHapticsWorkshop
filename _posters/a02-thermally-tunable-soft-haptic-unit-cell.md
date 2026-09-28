@@ -2,6 +2,7 @@
 title: "Thermally Tunable, Magnetically Actuated Soft Haptic Unit Cell"
 poster_id: "A02"
 section: "A"
+poster_pdf: /assets/posters/a02-gao.pdf
 summary_image: /assets/images/posters/a02-gao.jpg
 excerpt: "Compact soft haptic elements could provide localized tactile cues for wearable interfaces, teleoperation, and human-robot interaction. Producing appreciable deformation in a…"
 authors:

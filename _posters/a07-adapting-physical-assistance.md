@@ -2,6 +2,7 @@
 title: "Adapting Physical Assistance, from Robotic Everyday Objects to 3D-Printed Haptic Experiences"
 poster_id: "A07"
 section: "A"
+poster_pdf: /assets/posters/a07-han.pdf
 summary_image: /assets/images/posters/a07-han.jpg
 excerpt: "Robots are moving into everyday life to help people with daily tasks. In my research, I envision physical assistance that is embodied by the familiar objects already around us and…"
 authors:

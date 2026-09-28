@@ -52,6 +52,12 @@ affiliation markers, the graphical summary, and the abstract (the document body)
   </ul>
   {%- endif %}
 
+  {%- if page.poster_pdf %}
+  <p class="wk-poster__download">
+    <a class="wk-btn wk-btn--primary" href="{{ page.poster_pdf | relative_url }}" target="_blank" rel="noopener noreferrer">Download poster (PDF)</a>
+  </p>
+  {%- endif %}
+
   {%- if page.summary_image %}
   <figure class="wk-poster__figure">
     <a href="{{ page.summary_image | relative_url }}" target="_blank" rel="noopener noreferrer">

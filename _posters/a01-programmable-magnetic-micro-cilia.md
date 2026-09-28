@@ -2,6 +2,7 @@
 title: "Programmable Magnetic Micro-Cilia for Distributed Haptic Actuation"
 poster_id: "A01"
 section: "A"
+poster_pdf: /assets/posters/a01-kushagr.pdf
 summary_image: /assets/images/posters/a01-kushagr.jpg
 excerpt: "Distributed haptic interfaces require compliant actuator arrays with locally programmable responses. Conventional methods cannot readily place active and passive materials…"
 authors:

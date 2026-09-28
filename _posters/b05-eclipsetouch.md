@@ -2,6 +2,7 @@
 title: "EclipseTouch: Touch Segmentation on Ad Hoc Surfaces using Worn Infrared Shadow Casting"
 poster_id: "B05"
 section: "B"
+poster_pdf: /assets/posters/b05-mollyn.pdf
 summary_image: /assets/images/posters/b05-mollyn.jpg
 excerpt: "EclipseTouch is an accurate, headset-integrated system for sensing ad hoc touch input on a variety of everyday surfaces. Our system combines a computer-triggered camera with one…"
 authors:

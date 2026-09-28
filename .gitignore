@@ -14,3 +14,6 @@ assets/abstracts/
 assets/Accepted Posters - Sheet1.csv
 assets/Formresponses/
 assets/graphical-summaries/
+
+# Raw poster PDFs as emailed by presenters; the web copies live in assets/posters/
+_posters_new/

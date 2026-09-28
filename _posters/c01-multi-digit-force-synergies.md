@@ -2,6 +2,7 @@
 title: "Multi-digit Force Synergies for Haptic Interface Design"
 poster_id: "C01"
 section: "C"
+poster_pdf: /assets/posters/c01-zuo.pdf
 summary_image: /assets/images/posters/c01-zuo.jpg
 excerpt: "In-hand manipulation is essential for achieving high-performance control in teleoperated robotics and enabling immersive, embodied interactions in virtual environments. It…"
 authors:

@@ -2,6 +2,7 @@
 title: "Learning User-Specific Sensory Strategies from Haptic Interaction"
 poster_id: "A06"
 section: "A"
+poster_pdf: /assets/posters/a06-chase.pdf
 summary_image: /assets/images/posters/a06-chase.jpg
 excerpt: "Haptic interfaces for teleoperation and human-robot interaction often assume that users interpret feedback similarly, yet perception depends on how haptic cues are integrated with…"
 authors:

@@ -14,7 +14,7 @@ This file is .html rather than .md so kramdown does not reflow the Liquid loops.
   poster session and networking period, 11:40 AM &ndash; 12:15 PM on Thursday,
   October 1, 2026, in Rooms 403 and 404 of the David L. Lawrence Convention
   Center. Select a title to read the abstract and see the graphical
-  summary. 
+  summary, or use the PDF link to download the poster itself. 
   <!-- The graphical summaries are also collected in the digital poster booklet distributed to workshop participants. -->
 </p>
 
@@ -32,6 +32,9 @@ This file is .html rather than .md so kramdown does not reflow the Liquid loops.
       <span class="wk-poster-row__id">{{ p.poster_id }}</span>
       <a class="wk-poster-row__title" href="{{ p.url | relative_url }}">{{ p.title | escape }}</a>
       <span class="wk-poster-row__authors">{{ p.authors[0].family }}{% if p.authors.size > 1 %} et al.{% endif %}</span>
+      {%- if p.poster_pdf %}
+      <a class="wk-poster-row__pdf" href="{{ p.poster_pdf | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Download the poster PDF for {{ p.title | escape }}">PDF</a>
+      {%- endif %}
     </li>
     {%- endfor %}
   </ol>

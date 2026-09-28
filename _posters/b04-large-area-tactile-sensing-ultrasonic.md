@@ -2,6 +2,7 @@
 title: "Large-Area Tactile Sensing via Contact-Induced Modulation of Ultrasonic Waves"
 poster_id: "B04"
 section: "B"
+poster_pdf: /assets/posters/b04-reardon.pdf
 summary_image: /assets/images/posters/b04-reardon.jpg
 excerpt: "Tactile sensing on robot hands is typically concentrated at the fingertips, yet contact during grasping and in-hand manipulation frequently occurs across the palm, proximal…"
 authors:

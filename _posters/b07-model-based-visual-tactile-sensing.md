@@ -2,6 +2,7 @@
 title: "A Model-based Visual Tactile Sensing and Perception System for Compliant Robotic Grippers"
 poster_id: "B07"
 section: "B"
+poster_pdf: /assets/posters/b07-zuo.pdf
 summary_image: /assets/images/posters/b07-zuo.jpg
 excerpt: "Tactile sensing is essential for robotic manipulation, yet integrating traditional force/torque (F/T) sensors into compliant grippers introduces trade-offs in sensing performance…"
 authors:

@@ -2,6 +2,7 @@
 title: "Dexkit Phantom Fingers"
 poster_id: "A05"
 section: "A"
+poster_pdf: /assets/posters/a05-garcia-alonzo.pdf
 summary_image: /assets/images/posters/a05-garcia-alonzo.jpg
 excerpt: "Haptic teleoperation demands interfaces that faithfully reproduce human hand kinematics. Access to such interfaces is restricted by their price or their manufacturing…"
 authors:

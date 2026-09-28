@@ -2,6 +2,7 @@
 title: "Tactile-Enabled Contact Insertion for Automated Wire-Harness Assembly"
 poster_id: "B01"
 section: "B"
+poster_pdf: /assets/posters/b01-lakkavalli-giridhar.pdf
 summary_image: /assets/images/posters/b01-lakkavalli-giridhar.jpg
 excerpt: "Wire-harness assembly remains largely manual in vehicle production, and one step of it is inserting a crimped contact into a connector cavity. The gripper must stop at the crimp…"
 authors:

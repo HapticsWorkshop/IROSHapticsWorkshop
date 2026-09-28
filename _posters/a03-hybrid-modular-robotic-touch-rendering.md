@@ -2,6 +2,7 @@
 title: "Hybrid Modular Robotic Touch Rendering"
 poster_id: "A03"
 section: "A"
+poster_pdf: /assets/posters/a03-an.pdf
 summary_image: /assets/images/posters/a03-an.jpg
 excerpt: "Haptic interfaces for augmented and virtual reality can reproduce individual cues such as force, texture, shape, and compliance, yet these properties are often rendered using…"
 authors:

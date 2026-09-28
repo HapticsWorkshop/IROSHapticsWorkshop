@@ -2,6 +2,7 @@
 title: "A Fingertip Haptic Device for Rendering Directional Motion Cues"
 poster_id: "A04"
 section: "A"
+poster_pdf: /assets/posters/a04-zhang.pdf
 summary_image: /assets/images/posters/a04-zhang.jpg
 excerpt: "Dexterous manipulation relies on accurate motion-direction information to coordinate finger movements and correct manipulation errors. In this study, we present a haptic device…"
 authors:
