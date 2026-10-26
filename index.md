@@ -46,8 +46,8 @@ excerpt: "A half-day IROS 2026 workshop on integrating tactile sensing, haptic i
       </div>
 
       <div class="wk-hero__cta">
-        <a class="wk-btn wk-btn--primary" href="{{ '/accepted-posters/' | relative_url }}">Accepted Posters</a>
-        <a class="wk-btn wk-btn--ghost" href="{{ '/schedule/' | relative_url }}">View the Program</a>
+        <a class="wk-btn wk-btn--primary" href="{{ '/recap/' | relative_url }}">Workshop Recap</a>
+        <a class="wk-btn wk-btn--ghost" href="{{ '/accepted-posters/' | relative_url }}">Accepted Posters</a>
 
         <div class="wk-countdown" id="wk-countdown" hidden>
           <span class="wk-countdown__dot" aria-hidden="true"></span>

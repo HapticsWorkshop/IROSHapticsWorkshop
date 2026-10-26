@@ -1264,6 +1264,219 @@ $footer-background-color: #f4f6fa;
 }
 
 /* ==========================================================================
+   Workshop recap (_pages/recap.html)
+   ========================================================================== */
+
+/* The page supplies its own photo hero, so the theme title is redundant. */
+.wk-recap #page-title {
+  display: none;
+}
+
+.wk-recap-hero {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  min-height: clamp(340px, 42vw, 560px);
+  margin: 0 0 1rem;
+  border-radius: 22px;
+  background: $brand-ink;
+  color: #fff;
+}
+
+.wk-recap-hero__photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 70%;
+}
+
+/* Darkens the lower half so the copy stays legible over the crowd. */
+.wk-recap-hero:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    to top,
+    rgba(16, 20, 29, 0.94) 0%,
+    rgba(16, 20, 29, 0.7) 38%,
+    rgba(16, 20, 29, 0.15) 75%,
+    rgba(16, 20, 29, 0.05) 100%
+  );
+}
+
+.wk-recap-hero__copy {
+  position: relative;
+  z-index: 1;
+  max-width: 54rem;
+  padding: 2.25rem 2.5rem 2.5rem;
+}
+
+.wk-recap-hero__title {
+  font-family: $header-font-family;
+  font-size: clamp(1.9rem, 3.4vw, 3rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin: 0.9rem 0 0;
+  color: #fff;
+  text-wrap: balance;
+
+  em {
+    font-style: normal;
+    color: $brand-gold-light;
+  }
+}
+
+.wk-recap-hero__lead {
+  max-width: 60ch;
+  margin: 0.9rem 0 0;
+  font-size: 1.06rem;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* Photos: every image links to its full-size copy. The theme gives `figure`
+   flex layout and margins meant for Markdown images, so reset those here. */
+.wk-photo {
+  display: block;
+  margin: 0;
+
+  > a {
+    display: block;
+    border-bottom: none;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border-radius: 14px;
+  }
+
+  figcaption {
+    margin: 0.6rem 0 0;
+    font-family: $sans-serif;
+    font-size: 0.88rem;
+    line-height: 1.5;
+    color: $muted-text-color;
+  }
+}
+
+.wk-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem 1.25rem;
+  margin-top: 1.75rem;
+
+  /* Uniform tiles; the full-size image is one click away. */
+  .wk-photo img {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+}
+
+/* Wide shots span the grid but are cropped to a banner so they don't dwarf the
+   page; the ceiling is the least interesting part, so keep the lower half. */
+.wk-photo--wide {
+  grid-column: 1 / -1;
+
+  img {
+    aspect-ratio: 2 / 1 !important;
+    object-position: center 75%;
+  }
+}
+
+.wk-recap-subtitle {
+  margin: 3rem 0 0;
+  font-family: $header-font-family;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+/* Five quotes: three across, then two wider ones, so the grid has no hole. */
+.wk-quotes {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.75rem;
+}
+
+.wk-quote {
+  grid-column: span 2;
+  margin: 0;
+  padding: 1.4rem 1.6rem;
+  border-left: 4px solid $brand-gold;
+  border-radius: 0 16px 16px 0;
+  background: #fdf8ee;
+  font-style: normal;
+
+  p {
+    margin: 0;
+    font-size: 1.08rem;
+    line-height: 1.6;
+    color: $text-color;
+  }
+
+  cite {
+    display: block;
+    margin-top: 0.8rem;
+    font-style: normal;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: $text-color;
+  }
+
+  cite span {
+    font-weight: 400;
+    color: $muted-text-color;
+  }
+}
+
+.wk-quote:nth-child(n + 4) {
+  grid-column: span 3;
+}
+
+@media (max-width: 1024px) {
+  .wk-quotes {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .wk-quote,
+  .wk-quote:nth-child(n + 4) {
+    grid-column: auto;
+  }
+}
+
+.wk-band__body a {
+  color: $brand-gold-light;
+}
+
+.wk-quotes__note {
+  margin: 0.9rem 0 0;
+  font-size: 0.82rem;
+  color: $muted-text-color;
+}
+
+@media (max-width: 700px) {
+  .wk-photo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .wk-recap-hero__copy {
+    padding: 1.75rem 1.4rem 1.6rem;
+  }
+}
+
+/* ==========================================================================
    Responsive
    ========================================================================== */
 

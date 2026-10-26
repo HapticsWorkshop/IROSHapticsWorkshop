@@ -51,6 +51,7 @@ exclude:
   - assets/Formresponses
   - assets/graphical-summaries
   - "assets/Accepted Posters - Sheet1.csv"
+  - assets/workshop-pics-recording
   - Gemfile
   - Gemfile.lock
   - vendor

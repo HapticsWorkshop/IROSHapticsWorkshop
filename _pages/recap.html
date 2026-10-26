@@ -1,0 +1,210 @@
+---
+title: "Workshop Recap"
+permalink: /recap/
+classes: wk-recap
+excerpt: "About 80 people joined us in Pittsburgh on October 1, 2026 for five keynotes, a round table, and a poster session on enhancing dexterous manipulation through haptic feedback. Here is how the morning went."
+og_image: /assets/images/recap/og-recap.jpg
+og_image_alt: "A full room of attendees at the IROS 2026 workshop on haptics and dexterous manipulation, Pittsburgh, October 1, 2026."
+---
+{%- comment -%}
+Post-workshop recap. Photos are web copies (1600 px) of the raw workshop-day
+pictures, which stay out of the repo (see .gitignore). The round-table quotes
+come from a private transcript of the panel recording; the recording itself is
+never published.
+This file is .html rather than .md so kramdown does not reflow the markup.
+{%- endcomment -%}
+
+<section class="wk-recap-hero">
+  <img class="wk-recap-hero__photo" src="{{ '/assets/images/recap/room-full.jpg' | relative_url }}" width="1600" height="1200" alt="A packed room of about 80 attendees, seen from the back, watching Rebecca Friesen's keynote on a sensorized jar lid">
+  <div class="wk-recap-hero__copy">
+    <span class="wk-hero__badge">IROS 2026 &middot; October 1 &middot; Pittsburgh</span>
+    <h1 class="wk-recap-hero__title">A full room for <em>haptics and dexterous manipulation</em></h1>
+    <p class="wk-recap-hero__lead">
+      Thank you to everyone who joined us. Here is a look back at the morning:
+      five keynotes, a round table with all of our speakers, and a busy poster
+      session.
+    </p>
+  </div>
+</section>
+
+<section class="wk-section">
+  <h2 class="wk-section__title">The Keynotes</h2>
+
+  <p class="wk-section__lead">
+    Session&nbsp;1, <em>Crossing Paths: Haptics and Dexterous Manipulation</em>,
+    moved from the neuroscience of human touch to tactile sensors, wearable
+    haptic interfaces, and the hardware that could make remote touch feel real.
+  </p>
+
+  <div class="wk-photo-grid">
+    <figure class="wk-photo">
+      <a href="{{ '/assets/images/recap/keynote-lepora.jpg' | relative_url }}">
+        <img src="{{ '/assets/images/recap/keynote-lepora.jpg' | relative_url }}" width="1600" height="1200" loading="lazy" alt="The audience watching a slide that charts three generations of tactile robotics research from 1980 to 2024">
+      </a>
+      <figcaption>Nathan Lepora's keynote, <em>Tactile Robotics: Past and Future</em>, charting three generations of tactile robotics research.</figcaption>
+    </figure>
+
+    <figure class="wk-photo">
+      <a href="{{ '/assets/images/recap/keynote-motivation-slide.jpg' | relative_url }}">
+        <img src="{{ '/assets/images/recap/keynote-motivation-slide.jpg' | relative_url }}" width="1600" height="1200" loading="lazy" alt="A speaker at the podium beside a slide showing a haptic glove and sensorized robot fingers">
+      </a>
+      <figcaption>Haptic gloves and sensorized fingertips on screen during the morning session.</figcaption>
+    </figure>
+  </div>
+
+  <a class="wk-more" href="{{ '/speakers/' | relative_url }}">Full talk abstracts</a>
+</section>
+
+<section class="wk-section" id="round-table">
+  <h2 class="wk-section__title">Round Table: Can We Enhance Dexterous Manipulation Through Haptics?</h2>
+
+  <p class="wk-section__lead">
+    After the coffee break, all five speakers returned to the stage to take on
+    the workshop's central question, with plenty of questions from the floor.
+    A few threads ran through the whole conversation.
+  </p>
+
+  <div class="wk-cards">
+    <div class="wk-card">
+      <div class="wk-card__num">Theme 01</div>
+      <div class="wk-card__title">&ldquo;Good enough&rdquo; depends on the task</div>
+      <p class="wk-card__body">
+        Audio and video engineers know which bandwidths people care about; for
+        touch we still lack that model. The panel agreed that good enough is
+        task-dependent, and that finding it may first take hardware that
+        offers much more than good enough.
+      </p>
+    </div>
+
+    <div class="wk-card">
+      <div class="wk-card__num">Theme 02</div>
+      <div class="wk-card__title">Where is the tactile data?</div>
+      <p class="wk-card__body">
+        Robot-learning efforts gather plenty of joint and vision data but very
+        little touch. Newer surgical robots can record instrument forces across
+        many procedures, yet privacy rules keep that data out of researchers'
+        reach.
+      </p>
+    </div>
+
+    <div class="wk-card">
+      <div class="wk-card__num">Theme 03</div>
+      <div class="wk-card__title">No shared language of touch, yet</div>
+      <p class="wk-card__body">
+        Sensors report different quantities, and the same skin behaves
+        differently on different hands. Ideas from the stage: benchmark against
+        instrumented objects, or borrow psychometric-style tests to measure
+        dexterity itself.
+      </p>
+    </div>
+
+    <div class="wk-card">
+      <div class="wk-card__num">Theme 04</div>
+      <div class="wk-card__title">Tasks where touch should win</div>
+      <p class="wk-card__body">
+        Flossing teeth, tying shoelaces, handling tiny objects, two-handed work
+        without looking, and fast reactive skills like hitting a baseball: the
+        challenges the panel would put to vision-only policies.
+      </p>
+    </div>
+  </div>
+
+  <h3 class="wk-recap-subtitle">In their words</h3>
+
+  <div class="wk-quotes">
+    <blockquote class="wk-quote">
+      <p>&ldquo;We have this tendency to want to optimize and say less is more in some of these interfaces. But I still have the opinion that more is more. Visual displays have millions of pixels, and we&rsquo;re trying to jam haptics through our entire distributed skin with a couple of actuators.&rdquo;</p>
+      <cite>Craig Shultz <span>&middot; Fluid Reality</span></cite>
+    </blockquote>
+
+    <blockquote class="wk-quote">
+      <p>&ldquo;[Audio and displays] are really tractable problems, because we know what the signals look like&hellip; And then you go over to touch and you say, oops. Because we don&rsquo;t have any of those things.&rdquo;</p>
+      <cite>Roberta Klatzky <span>&middot; Carnegie Mellon University</span></cite>
+    </blockquote>
+
+    <blockquote class="wk-quote">
+      <p>&ldquo;Different companies are making different bets on the tactile sensor type to use&hellip; It might not matter too much which type of tactile sensor you&rsquo;re using. Obviously, we&rsquo;re all disagreeing and pitching our flags in the sand for specific types of technology.&rdquo;</p>
+      <cite>Nathan Lepora <span>&middot; University of Bristol</span></cite>
+    </blockquote>
+
+    <blockquote class="wk-quote">
+      <p>&ldquo;If you can&rsquo;t standardize across hands, you can standardize across an object hands can interact with. Maybe the hands are all reading out different readings from their own sensors, but if they&rsquo;re doing the same thing to the object, then we can compare.&rdquo;</p>
+      <cite>Rebecca Friesen <span>&middot; Texas A&amp;M University</span></cite>
+    </blockquote>
+
+    <blockquote class="wk-quote">
+      <p>&ldquo;As someone who designs weird soft robots with all kinds of different shapes and materials, we&rsquo;re proliferating chaos in a good way. We want that Cambrian explosion of robot designs, because that might help us discover really cool principles and approaches.&rdquo;</p>
+      <cite>Allison Okamura <span>&middot; Stanford University</span></cite>
+    </blockquote>
+  </div>
+
+  <p class="wk-quotes__note">Quotes are lightly edited for clarity from the session recording; brackets mark words added for context.</p>
+
+  <div class="wk-photo-grid">
+    <figure class="wk-photo">
+      <a href="{{ '/assets/images/recap/panel-wide.jpg' | relative_url }}">
+        <img src="{{ '/assets/images/recap/panel-wide.jpg' | relative_url }}" width="1600" height="1200" loading="lazy" alt="Five panelists seated at a table on stage with the moderator at the podium">
+      </a>
+      <figcaption>The round table with our five invited speakers.</figcaption>
+    </figure>
+
+    <figure class="wk-photo">
+      <a href="{{ '/assets/images/recap/panel-discussion.jpg' | relative_url }}">
+        <img src="{{ '/assets/images/recap/panel-discussion.jpg' | relative_url }}" width="1600" height="1200" loading="lazy" alt="A panelist gesturing while answering a question as the others listen">
+      </a>
+      <figcaption>Questions from the floor kept the discussion going until it was time for posters.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="wk-section" id="posters">
+  <h2 class="wk-section__title">Poster Session</h2>
+
+  <p class="wk-section__lead">
+    The morning closed with posters and networking in the corridor outside the
+    workshop rooms, where presenters walked visitors through new tactile
+    sensors, haptic interfaces, and learned manipulation policies.
+  </p>
+
+  <div class="wk-photo-grid">
+    <figure class="wk-photo wk-photo--wide">
+      <a href="{{ '/assets/images/recap/posters-foyer.jpg' | relative_url }}">
+        <img src="{{ '/assets/images/recap/posters-foyer.jpg' | relative_url }}" width="1600" height="1200" loading="lazy" alt="Attendees gathered around poster boards along a sunlit convention center corridor">
+      </a>
+      <figcaption>Posters lined the corridor outside Rooms 403 and 404, including <a href="{{ '/accepted-posters/c06-bimanual-dexterous-jar-opening/' | relative_url }}">Learning Bimanual Dexterous Jar Opening with Finger Gaiting</a> (C06).</figcaption>
+    </figure>
+
+    <figure class="wk-photo">
+      <a href="{{ '/assets/images/recap/posters-missing-touch.jpg' | relative_url }}">
+        <img src="{{ '/assets/images/recap/posters-missing-touch.jpg' | relative_url }}" width="1600" height="1200" loading="lazy" alt="A group of attendees reading two posters side by side">
+      </a>
+      <figcaption><a href="{{ '/accepted-posters/c03-the-missing-touch/' | relative_url }}">The Missing Touch</a> (C03) and <a href="{{ '/accepted-posters/c04-blind-whole-body-haptic-dexterity/' | relative_url }}">Blind Whole-Body Haptic Dexterity Without Tactile Sensors</a> (C04).</figcaption>
+    </figure>
+
+    <figure class="wk-photo">
+      <a href="{{ '/assets/images/recap/posters-eclipsetouch.jpg' | relative_url }}">
+        <img src="{{ '/assets/images/recap/posters-eclipsetouch.jpg' | relative_url }}" width="1600" height="1200" loading="lazy" alt="Two attendees in conversation between two posters">
+      </a>
+      <figcaption><a href="{{ '/accepted-posters/b04-large-area-tactile-sensing-ultrasonic/' | relative_url }}">Large-Area Tactile Sensing via Ultrasonic Waves</a> (B04) and <a href="{{ '/accepted-posters/b05-eclipsetouch/' | relative_url }}">EclipseTouch</a> (B05).</figcaption>
+    </figure>
+  </div>
+
+  <a class="wk-more" href="{{ '/accepted-posters/' | relative_url }}">Browse all {{ site.posters | size }} posters, with abstracts and PDFs</a>
+</section>
+
+<div class="wk-band">
+  <span class="wk-hero__badge">Thank you</span>
+  <div class="wk-band__title">See you at the next one</div>
+  <p class="wk-band__body">
+    Thank you to our five speakers, to every poster presenter, and to everyone
+    who filled the room and stayed for the discussion. This workshop was
+    supported by the HAND Engineering Research Center, the SHRED Lab at
+    Carnegie Mellon, and MIT's Interactive Robotics Group. Questions or ideas
+    for a follow-up? Write to us at
+    <a href="mailto:hapticsworkshop@gmail.com">hapticsworkshop@gmail.com</a>.
+  </p>
+  <div class="wk-hero__cta">
+    <a class="wk-btn wk-btn--primary" href="{{ '/' | relative_url }}#signup-form">Join the mailing list</a>
+    <a class="wk-btn wk-btn--ghost" href="{{ '/organizers/' | relative_url }}">Meet the organizers</a>
+  </div>
+</div>

@@ -22,7 +22,9 @@
      link is posted to X, LinkedIn, Slack, or Bluesky. -->
 {%- assign share_title = page.title | default: site.title -%}
 {%- assign share_desc = page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 200 -%}
-{%- assign share_image = '/assets/images/og-card.png' | absolute_url -%}
+{%- comment -%} A page can set its own 1200x630 card with `og_image` / `og_image_alt`. {%- endcomment -%}
+{%- assign share_image = page.og_image | default: '/assets/images/og-card.png' | absolute_url -%}
+{%- assign share_image_alt = page.og_image_alt | default: "IROS 2026 Workshop: Enhancing Dexterous Manipulation Through Haptic Feedback. October 1, 2026, Pittsburgh, PA." -%}
 
 <meta name="description" content="{{ share_desc }}">
 
@@ -34,7 +36,7 @@
 <meta property="og:image" content="{{ share_image }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="IROS 2026 Workshop: Enhancing Dexterous Manipulation Through Haptic Feedback. October 1, 2026, Pittsburgh, PA.">
+<meta property="og:image:alt" content="{{ share_image_alt | escape }}">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ share_title }}">

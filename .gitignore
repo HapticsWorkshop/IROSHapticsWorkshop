@@ -17,3 +17,7 @@ assets/graphical-summaries/
 
 # Raw poster PDFs as emailed by presenters; the web copies live in assets/posters/
 _posters_new/
+
+# Raw workshop-day photos and the panel recording. Never publish the recording;
+# resized web copies of the photos live in assets/images/recap/.
+assets/workshop-pics-recording/
